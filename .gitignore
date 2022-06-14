@@ -1,0 +1,11 @@
+*.swp
+*~
+.*.haste_cache.*
+.DS_Store
+npm-debug.log
+/build
+/public
+/gh-pages
+/node_modules
+yarn.lock
+package-lock.json

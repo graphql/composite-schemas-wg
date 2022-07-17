@@ -57,10 +57,6 @@ Subschemas with overlapping enum types where the disparate types define differen
 - When using `Single-service composite schema execution`, the enum types can be merged as a union of values from all subschemas.
 - When using `Subschemas as remote GraphQL services`
   - If the enum types are used only in output types, the enum types can be merged as a union of values from all subschemas.
-  - If the enum types are used only in input types, the enum types can be merged:
-    - if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema, or
-    - if composition is performed as an intersection of values from all subschemas, although feature-completeness is lost.
-  - If the enum types are used in both input and output types, the enum values can be composed:
-    - if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema.
+  - If the enum types are used in input types, the enum types can be merged if and only if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema.
 
 WIP! will be edited.

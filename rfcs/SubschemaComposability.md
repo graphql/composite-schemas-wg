@@ -15,11 +15,11 @@ The term "overlapping" will be used to refer to a situation where different subs
 
 For a given set of subschemas, it may be impossible to generate a valid composite schema that contains all GraphQL elements of all of the individual subschemas. This set of subchemas is then considered to be "not composable." Inversely, if a composite schema can be generated for a given set of subschemas, this set of subschemas is considered "composable."
 
-## Merging
+## Merging and Mergability
 
 The following terms will be avoided by this RFC until consensus is achieved on a specific meaning that enhances the lexicon: "schema merging," "schema stitching," "schema federation," "type federation."
 
-However, the term "merging" will be used as follows: When a set of subschemas with overlapping elements is composable, all overlapping GraphQL elements will be considered to have been "merged" succesfully. If a set of subschemas contains even a single set of overlapping GraphQL elemeents that cannot be "merged," then the subschemas are not composable.
+However, the term "merging" will be used as follows: When a set of subschemas with overlapping elements is composable, all overlapping GraphQL elements will be considered to have been "merged" succesfully. If a set of subschemas contains even a single set of overlapping GraphQL elemeents that cannot be "merged," then the subschemas are not composable. If all GraphQL entities within the subschemas are "mergable," then the subschemas are composable.
 
 The terms "type merging," "field merging," "argument merging," etc., are therefore all well defined. The terms "schema merging" or "subschema merging" are not well defined by this definition, as schemas/subschemas do not "overlap" and therefore cannot be merged.
 
@@ -54,13 +54,13 @@ The below RFC is meant to be useful across all varieties of schema composition. 
 # Enums
 
 Subschemas with overlapping enum types where the disparate types define different value sets are only sometimes composable.
-- When using `Single-service composite schema execution`, the enum values can be composed as a union of values from all subschemas.
+- When using `Single-service composite schema execution`, the enum types can be merged as a union of values from all subschemas.
 - When using `Subschemas as remote GraphQL services`
-  - If the enum values are used only in output types, the enum values can be composed as a union of values from all subschemas.
-  - If the enum values are used only in input types, the enum values can be composed:
-    - if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema.
+  - If the enum types are used only in output types, the enum types can be merged as a union of values from all subschemas.
+  - If the enum types are used only in input types, the enum types can be merged:
+    - if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema, or
     - if composition is performed as an intersection of values from all subschemas, although feature-completeness is lost.
-  - If the enum values are used in both input and output types, the enum values can be composed only if:
+  - If the enum types are used in both input and output types, the enum values can be composed:
     - if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema.
 
 WIP! will be edited.

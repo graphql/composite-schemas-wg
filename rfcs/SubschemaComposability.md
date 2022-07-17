@@ -13,23 +13,23 @@ The term "overlapping" will be used to refer to a situation where different subs
 
 ## Composable
 
-For a given set of subschemas, it may be impossible to generate a valid composite schema that contains all GraphQL elements of all of the individual subschemas. This set of subchemas is then considered to be "not composable." Conversely, if a composite schema can be generated for a given set of subschemas, this set of subschemas is considered "composable."
+For a given set of subschemas, it may be impossible to generate a valid composite schema that contains all GraphQL elements of all of the individual subschemas. This set of subchemas is then considered to be "not composable." Inversely, if a composite schema can be generated for a given set of subschemas, this set of subschemas is considered "composable."
 
 ## Merging
 
 The following terms will be avoided by this RFC until consensus is achieved on a specific meaning that enhances the lexicon: "schema merging," "schema stitching," "schema federation," "type federation."
 
-However, the term "merging" will be used as follows: When a set of subschemas with overlapping elements is composable, all overlapping GraphQL elements will be considered to have been "merged" succesfully. If a set of subschemas contains even single set of overlapping GraphQL elemeents that cannot be "merged," then the subschemas are not composable.
+However, the term "merging" will be used as follows: When a set of subschemas with overlapping elements is composable, all overlapping GraphQL elements will be considered to have been "merged" succesfully. If a set of subschemas contains even a single set of overlapping GraphQL elemeents that cannot be "merged," then the subschemas are not composable.
 
-The terms "type merging," "field merging," "argument merging," etc., are therefore all well defined. The terms "schema merging" or "subschema merging" are not well defined by this definition, as schemas/subschemas do not "overlap."
+The terms "type merging," "field merging," "argument merging," etc., are therefore all well defined. The terms "schema merging" or "subschema merging" are not well defined by this definition, as schemas/subschemas do not "overlap" and therefore cannot be merged.
 
 ## Namespacing
 
-A set of potentially "overlapping" types in subschemas may be considered to have been "namespaced" if they have been adjusted in some way so as to longer be overlapping. For example, identically named types in different subschemas may be mapped to different types in the composite schema by some form of metadata, or the metadata denoting these types as overlapping in the first instance may be adjusted such that the disparate subschema types map to different types in the composite schema. Or, a new namespace construct could be introduced into the GraphQL specification such that multiple, different types with the same name could be organized into separate namespaces. In any of these situations, the types no longer _require_ merging, such that there is no potential impediment to composability. 
+A set of potentially "overlapping" types in subschemas may be considered to have been "namespaced" if they have been adjusted in some way so as to longer be overlapping. For example, identically named types in different subschemas may be namespaced by utilizing some form of metadata to map the identically named types to different types in the composite schema. Or, when metadata denotes types as overlapping in the first instance, namespacing may be accomplished simply by adjusting the existing metadata or additional additional metadata. Finally, a new namespace construct may be introduced into the GraphQL specification itself such that multiple, different types with the same name could be organized into separate namespaces without conflict. In any of these situations, the "namespaced" types no longer overlap and no longer _require_ merging, and there is no potential impediment to composability. 
 
 ## Composability in Relation to Types of Composition
 
-Many types of schema composition exist, with potential distinctions including (but potentially not limited to):
+Many types of schema composition exist, with potential distinctions including (but not limited to):
 
 ### Timing of Composition
 
@@ -39,10 +39,10 @@ Many types of schema composition exist, with potential distinctions including (b
 
 ### Method of Composite Schema Execution
 
-1. `Subschemas as remote GraphQL services`: in certain forms of composition (gateways, gateway schemas, etc.), the execution of a request against a composite schema will yields request(s) against spec-compliant (or non-spec compliant) GraphQL subservices that are then merged into a single request.
+1. `Subschemas as remote GraphQL services`: in certain forms of composition (gateways, gateway schemas, etc.), the execution of a request against a composite schema will yields request(s) against spec-compliant (or even non-spec compliant) GraphQL subservices that are then merged into a single request.
 2. `Single-service composite schema execution`: Often, especially when utilizing "build-time" composition, a single service executes the composite schema without delegation to remote services tied to each subschema. 
 
-The below RFC is meant to be useful across all varieties of schema composition. Because all forms of schema composition require a composite schema, we can speak of "composability" without referring to the timing of composition or the type of execution. However, when relevant, reference will be made to underlying technical factors which affect "composability." Practically speaking, the timing of composition matters less to composability than does the method of execution, as if a request against the composite schema must ultimately be translated to request(s) against the source subschemas, then the composition must in some sense be reversed at runtime, which is an additional strenuous requirement.
+The below RFC is meant to be useful across all varieties of schema composition. Because all forms of schema composition require a composite schema, we can speak of "composability" without referring to the timing of composition or the type of execution. However, when relevant, reference will be made to underlying technical factors which affect "composability." Practically speaking, the method of composite schema execution matters more than the timing of composition. If a request against the composite schema must ultimately be translated to request(s) against the still extant source subschemas, then the composition must be -- in some sense -- reversed during execution, an additional strenuous requirement.
 
 # Scalars
 

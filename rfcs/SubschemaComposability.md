@@ -53,11 +53,22 @@ The below RFC is meant to be useful across all varieties of schema composition. 
 
 # Enums
 
-1. Overlapping enum types where the disparate types define identical sets of values can always be merged, as they are identical in all subschemas.
+1. Overlapping enum types where the types define identical sets of values can always be merged, as they are identical in all subschemas.
 2. Subschemas with overlapping enum types where the disparate types define different value sets are only sometimes composable.
    - When using `Single-service composite schema execution`, the enum types can be merged as a union of values from all subschemas.
    - When using `Subschemas as remote GraphQL services`
      - If the enum types are used only in output types, the enum types can be merged as a union of values from all subschemas.
      - If the enum types are used in input types, the enum types can be merged if and only if there is a way to translate, for any given subschema, every enum value that is defined only in the composite schema to an enum value defined for that subschema.
+
+# Input Object Types
+
+1. Overlapping input object types can be merged, as long as the overlapping input fields can be merged.
+2. If some of the types define fields not defined by the other types, the fields of these input objects may no longer affect the execution of portions of the subschema, in ways that may be unpredictable for users of the composite schema. Although clear documentation may ameliorate this issue, overall, the user experience may suffer. 
+
+# Input Object Fields
+
+1. Overlapping input object fields can be merged as long as the fields define the same type, allowing for variations in nullability.
+2. If any of the field types contain non-nullable portions, the field types must be merged as non-nullable for that portion.
+3. TODO: discuss default values.
 
 WIP! will be edited.

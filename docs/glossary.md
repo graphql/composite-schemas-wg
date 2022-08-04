@@ -1,5 +1,9 @@
 # Glossary
 
+This glossary serves as a foundation for having a common wording and language.
+The motivation behind this document was the many different namings and, hence,
+the resulting communication issues when talking about schema composition.
+
 ### Apollo Federated Graph ([Link](https://www.apollographql.com/docs/federation/))
 
 The process of composing multiple Apollo Subgraphs into one schema, usually via

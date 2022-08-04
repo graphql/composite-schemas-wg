@@ -59,6 +59,14 @@ database could be considered a data source. If the PostgreSQL database uses
 database triggers for applying business logic constraints it could be considered
 a **Service** instead. The boundaries are fluid.
 
+# Global Object Identification
+
+Pattern of having global unique IDs between all Object Types (entities), usually
+on a field with the name `id` and the field type `ID!`.
+
+- [Global Object Identification (graphql.org)](https://graphql.org/learn/global-object-identification/)
+- [GraphQL Global Object Identification Specification (relay.dev)](https://relay.dev/graphql/objectidentification.htm)
+
 ### GraphQL Hive
 
 A GraphQL schema registry and workflow tool maintained by The Guild that is
@@ -84,6 +92,28 @@ A mix of both **Subschema Directive-based Schema Composition** and
 > one schema (overall schema). The main purpose of this library is to power a
 > GraphQL gateway which serves as the entry point for executing requests across
 > different services while presenting one GraphQL API.
+
+### Nautilus ([Link](https://github.com/nautilus/gateway))
+
+> A library and standalone service that composes your GraphQL APIs into one
+> endpoint.
+
+Uses these
+[merge strategies](https://github.com/nautilus/gateway/blob/master/docs/mergingStrategies.md)
+and one interface type to compose subschemas (see **Node interface**).
+
+### Node interface
+
+The [Global Object
+Identification][https://graphql.org/learn/global-object-identification/]
+[spec][https://relay.dev/graphql/objectidentification.htm] defines a `Node`
+interface, which enables composition if shared types implement it.
+[Nautilus Gateway](https://github.com/nautilus/gateway) is one such
+implementation.
+
+[global object identification]:
+  https://graphql.org/learn/global-object-identification/
+[relay-goi-spec]: (https://relay.dev/graphql/objectidentification.htm)
 
 ### Schema Composition
 

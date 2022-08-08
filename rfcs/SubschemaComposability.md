@@ -76,10 +76,43 @@ Namespacing is one way in which subschemas may be adjusted prior to composition.
 
 ## Input Object Fields
 
-1. Overlapping input object fields can be composed as long as the fields define the same type, allowing for variations in nullability.
-2. If any of the field types is non-nullable and without a default value, the composed field must be non-nullable.
-3. If the field types is a list type of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema at that depth must be non-nullable.
+1. Overlapping input object fields can be composed as long as the fields have the same type, allowing for variations in nullability.
+2. If any of the overlapping input field types is non-nullable and without a default value, the composed input field type must be non-nullable.
+3. If the overlapping input field types are list types of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema must be non-nullable.
 4. Overlapping fields with different default values can be composed, with the default value for the field within the composite schema not specified.
+
+## Object Types
+
+1. Overlapping object types cannot be composed if any overlapping fields cannot be composed, see below.
+
+## Object Fields
+1. Overlapping object fields can be composed if all overlapping arguments are composable and all fields have the same type, allowing for variations in nullability.
+   - The use case for overlapping object fields given `Single-service composite schema execution` is not obvious! 
+2. If any of the overlapping field types is nullable, the composed field must be nullable.
+3. If the overlapping field types are list types of any depth and the item type at a given depth for any given subschema is nullable, the item type at that depth within the composite schema must be nullable.
+4. If some of the fields define arguments not defined by the other fields:
+   - The resolvers for those fields must have access to the composite type.
+   - Otherwise, the types cannot be composed.
+
+## Field Arguments
+1. Overlapping arguments can be composed as long as the arguments have the same type, allowing for variations in nullability.
+2. If any of the overlapping arguments is non-nullable and without a default value, the composed argument type must be non-nullable.
+3. If the overlapping arguments have list types of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema must be non-nullable.
+4. Overlapping arguments with different default values can be composed, with the default value for the argument within the composite schema not specified.
+
+## Interface Types
+
+1. Overlapping interface types cannot be composed if any overlapping fields cannot be composed, see below.
+
+## Interface Fields
+1. Overlapping interface fields can be composed if all overlapping arguments are composable (see above), and all fields have the same type, allowing for variations in nullability.
+   - Overlapping interface fields may be helpful for type safety in `Single-service composite schema execution`, although this is not obvious! 
+2. If any of the overlapping field types is nullable, the composed field must be nullable.
+3. If the overlapping field types are list types of any depth and the item type at a given depth for any given subschema is nullable, the item type at that depth within the composite schema must be nullable.
+
+# Union Types
+1. Overlapping union types are composable.
+   - The composed type within the composite schema should include the union of all possible types defined by each of the overlapping types.
 
 # `Subschemas as remote GraphQL services`
 
@@ -105,10 +138,37 @@ Namespacing is one way in which subschemas may be adjusted prior to composition.
 
 ## Input Object Fields
 
-1. Overlapping input object fields can be composed as long as the fields define the same type, allowing for variations in nullability.
-2. If any of the field types is non-nullable and without a default value, the composed field must be non-nullable.
-3. If the field types is a list type of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema at that depth must be non-nullable.
-4. Overlapping fields with different default values can be composed, with the default value for the field within the composite schema not specified.
+1. Overlapping input object fields can be composed as long as the fields have the same type, allowing for variations in nullability.
+2. If any of the overlapping input field types is non-nullable and without a default value, the composed input field type must be non-nullable.
+3. If the overlapping input field types are list types of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema must be non-nullable.
+4. Overlapping input field types with different default values can be composed, with the default value for the field within the composite schema not specified.
 
+## Object Types
 
-WIP! will be edited.
+1. Overlapping object types cannot be composed if any overlapping fields cannot be composed, see below.
+
+## Object Fields
+1. Overlapping object fields can be composed if all arguments overlap, all arguments are composable, and all fields have the same type, allowing for variations in nullability.
+   - When using `Subschemas as remote GraphQL services`, overlapping object fields may facilitate the minimization of subschemas requests. 
+2. If any of the overlapping field types is nullable, the composed field must be nullable.
+3. If the overlapping field types are list types of any depth and the item type at a given depth for any given subschema is nullable, the item type at that depth within the composite schema must be nullable.
+
+## Field Arguments
+1. Overlapping arguments can be composed as long as the arguments have the same type, allowing for variations in nullability.
+2. If any of the overlapping arguments is non-nullable and without a default value, the composed argument type must be non-nullable.
+3. If the overlapping arguments have list types of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema must be non-nullable.
+4. Overlapping arguments with different default values can be composed, with the default value for the argument within the composite schema not specified.
+
+## Interface Types
+
+1. Overlapping interface types cannot be composed if any overlapping fields cannot be composed, see below.
+
+## Interface Fields
+1. Overlapping interface fields can be composed if all arguments overlap, all arguments are composable (see above), and all fields have the same type, allowing for variations in nullability.
+   - When using `Subschemas as remote GraphQL services`, overlapping interface fields may facilitate the minimization of subschemas requests. 
+2. If any of the overlapping field types is nullable, the composed field must be nullable.
+3. If the overlapping field types are list types of any depth and the item type at a given depth for any given subschema is nullable, the item type at that depth within the composite schema must be nullable.
+
+# Union Types
+1. Overlapping union types are composable.
+   - The composed type within the composite schema should include the union of all possible types defined by each of the overlapping types.

@@ -67,11 +67,12 @@ Namespacing is one way in which subschemas may be adjusted prior to composition.
 
 ## Input Object Types
 
-1. Overlapping input object types can be composed, as long as the overlapping input fields can be composed.
+1. Overlapping input object types cannot be composed if any overlapping input fields cannot be composed, see below.
 2. If some of the input object types define fields not defined by the other overlapping types:
    - If the input object types are used within subschema field arguments, the resolvers for those fields attached to each must:
      - have access to the composite type, or
      - have access to all of the fields necessary to properly resolve the field.
+   - Otherwise, the types cannot be composed.
 
 ## Input Object Fields
 
@@ -98,9 +99,9 @@ Namespacing is one way in which subschemas may be adjusted prior to composition.
 
 ## Input Object Types
 
-1. Overlapping input object types can be composed, as long as:
-   - the overlapping input fields can be composed, and
-   - none of the overlapping types define fields not defined by any of the other overlapping types. If some of the types define fields not defined by the other types, the fields of these input objects will no longer affect the execution of portions of the subschema, in ways that may be unpredictable for users of the composite schema.
+1. Overlapping input object types cannot be composed if any overlapping input fields cannot be composed, see below.
+2. If some of the input object types define fields not defined by the other overlapping types, the types cannot be composed.
+   - If some of the types define fields not defined by the other types, the fields of these input objects will no longer affect the execution of portions of the subschema, in ways that may be unpredictable for users of the composite schema.
 
 ## Input Object Fields
 
@@ -108,5 +109,6 @@ Namespacing is one way in which subschemas may be adjusted prior to composition.
 2. If any of the field types is non-nullable and without a default value, the composed field must be non-nullable.
 3. If the field types is a list type of any depth and the item type at a given depth for any given subschema is non-nullable, the item type at that depth within the composite schema at that depth must be non-nullable.
 4. Overlapping fields with different default values can be composed, with the default value for the field within the composite schema not specified.
+
 
 WIP! will be edited.

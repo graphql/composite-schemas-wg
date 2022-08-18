@@ -30,7 +30,7 @@ composite schema via some set of guiding metadata.
 
 For a given set of subschemas, it may be possible to generate a valid
 `composite schema` that contains all GraphQL elements of all of the individual
-subschemas. This set of subchemas is then considered to be `composable`.
+subschemas. This set of subschemas is then considered to be `composable`.
 Inversely, it may be impossible to generate a valid composite schema containing
 all of the GraphQL elements of a given set of subschemas; this set of subschemas
 is considered `not composable`.

@@ -54,7 +54,7 @@ Many types of schema composition exist, with potential distinctions including
    build process prior to system start-up.
 2. "Run-time" composition in which the composite schema is created dynamically
    at system start-up.
-3. "Dynamic" composition , in that subschemas are polled by a managing service
+3. "Dynamic" composition, in that subschemas are polled by a managing service
    (or report changes to a managing service), such that the composition process
    can be triggered at or after system start-up and that the composite schema is
    dynamically refreshed as the subschemas change (or go offline!).

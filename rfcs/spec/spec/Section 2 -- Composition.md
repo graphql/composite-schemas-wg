@@ -1158,7 +1158,7 @@ EnumAreMergable(enums):
 
 **Explanatory Text**
 
-This rule ensures that enum types with the same name across different subgraphs in a GraphQL Fusion schema have identical sets of values. Enums, must be consistent across subgraphs to avoid conflicts and ambiguities in the composed schema.
+This rule ensures that enum types with the same name across different subgraphs in a supergraph have identical sets of values. Enums, must be consistent across subgraphs to avoid conflicts and ambiguities in the composed schema.
 
 When an enum is defined with differing values across subgraphs, it can lead to confusion and errors in query execution. For instance, a value valid in one subgraph might be passed to another where it's unrecognized, leading to unexpected behavior or failures. This rule prevents such inconsistencies by enforcing that all instances of the same named enum across subgraphs have an exact match in their values.
 
@@ -1562,7 +1562,7 @@ HasQueryRootType(schemas):
 
 **Explanatory Text**
 
-A graphQL fusion schema composed from multiple subgraphs must have a query root type to be valid. The query root type is essential. This rule ensures that at least one subgraph in the composition defines a query root type that defines at least one query field.
+A schema composed from multiple subgraphs must have a query root type to be valid. The query root type is essential. This rule ensures that at least one subgraph in the composition defines a query root type that defines at least one query field.
 
 The examples provided in the test cases demonstrate how the absence or presence of a valid query root type impacts the composition result. A composition that does not meet this requirement should result in an error with the code F0007, indicating the need for at least one query field across the included subgraphs.
 

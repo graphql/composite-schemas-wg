@@ -4,7 +4,7 @@ A distributed GraphQL executor acts as an orchestrator that uses schema metadata
 
 ## Configuration
 
-The Fusion Configuration is a GraphQL IDL document that contains metadata for the query planner that describes the relationship between type system members and the type system members on subgraphs.
+The supergraph is a GraphQL IDL document that contains metadata for the query planner that describes the relationship between type system members and the type system members on subgraphs.
 
 ### @variable
 

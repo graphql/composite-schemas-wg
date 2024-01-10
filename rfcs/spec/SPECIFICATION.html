@@ -259,17 +259,40 @@ This is an example of a non-normative note.</div>
 <h4><span class="spec-secid" title="link to this section"><a href="#sec--entityResolver">2.1.1.1</a></span>@entityResolver</h4>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@entityResolver</span> <span class="token keyword">on</span> <span class="token constant">FIELD_DEFINITION</span>
 </code></pre>
-<pre id="example-d6c3c" class="spec-example" data-language="graphql"><a href="#example-d6c3c">Example № 4</a><code><span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
-  <span class="token attr-name">version</span><span class="token punctuation">:</span> <span class="token scalar">Int</span>
+<p>Entity resolvers are fields on the query root type of a subgraph that can resolve an entity by a stable key. The stable key is defined by the arguments of the entity resolver field.</p>
+<pre id="example-713fa" class="spec-example" data-language="graphql"><a href="#example-713fa">Example № 4</a><code><span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">version</span><span class="token punctuation">:</span> <span class="token scalar">Int</span> <span class="token comment"># NOT an entity resolver.</span>
   <span class="token attr-name">personById</span><span class="token punctuation">(</span><span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token class-name">Person</span> <span class="token directive function">@entityResolver</span>
 <span class="token punctuation">}</span>
-</code></pre>
-<pre id="example-b0676" class="spec-example" data-language="graphql"><a href="#example-b0676">Example № 5</a><code><span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
-  <span class="token attr-name">node</span><span class="token punctuation">(</span><span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token class-name">Node</span> <span class="token directive function">@entityResolver</span>
+
+<span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Person</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<pre id="example-c6520" class="spec-example" data-language="graphql"><a href="#example-c6520">Example № 6</a><code><span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
-  <span class="token attr-name">_entities</span><span class="token punctuation">(</span><span class="token attr-name">representation</span><span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token class-name">Any</span><span class="token operator">!</span><span class="token punctuation">]</span><span class="token operator">!</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token class-name">Node</span> <span class="token directive function">@entityResolver</span>
+<p>The arguments of an entity resolver field must match fields of the returning type.</p>
+<pre id="example-81ec4" class="spec-example" data-language="graphql"><a href="#example-81ec4">Example № 5</a><code><span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">node</span><span class="token punctuation">(</span><span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token class-name">Node</span> <span class="token directive function">@entityResolver</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">interface</span> <span class="token class-name">Node</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span>
+<span class="token punctuation">}</span>
+</code></pre>
+<p>When an entity resolver returns an interface all implementing types are infered as entities.</p>
+<pre id="example-71165" class="spec-example" data-language="graphql"><a href="#example-71165">Example № 6</a><code><span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Query</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">entityById</span><span class="token punctuation">(</span><span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span><span class="token punctuation">,</span> <span class="token attr-name">categoryId</span><span class="token punctuation">:</span> <span class="token scalar">Int</span><span class="token punctuation">)</span><span class="token punctuation">:</span> <span class="token class-name">Entity</span> <span class="token directive function">@entityResolver</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">union</span> <span class="token class-name">Entity</span> <span class="token operator">=</span> <span class="token property">Cat</span> <span class="token operator">|</span> <span class="token property">Dog</span>
+
+<span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Dog</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span>
+  <span class="token attr-name">categoryId</span><span class="token punctuation">:</span> <span class="token scalar">Int</span>
+<span class="token punctuation">}</span>
+
+<span class="token keyword">extend</span> <span class="token keyword">type</span> <span class="token class-name">Cat</span> <span class="token punctuation">{</span>
+  <span class="token attr-name">id</span><span class="token punctuation">:</span> <span class="token scalar">ID</span><span class="token operator">!</span>
+  <span class="token attr-name">categoryId</span><span class="token punctuation">:</span> <span class="token scalar">Int</span>
 <span class="token punctuation">}</span>
 </code></pre>
 </section>

@@ -1,6 +1,6 @@
 # Overview
 
-GraphQL Fusion is a specification that describes how multiple GraphQL services,
+The GraphQL Composite Schemas specification describes how multiple GraphQL services,
 known as _subgraphs_, are combined into a single unified GraphQL schema called the
 _supergraph_.
 
@@ -19,11 +19,11 @@ tooling and gateways from  different implementers, the schema composition and th
 - **Execution**: The distributed GraphQL executor specifies the Gateway Configuration and
   the core execution algorithms.
 
-GraphQL Fusion describes a colaborative approach towards build a single graph composed from multiple
+The GraphQL Composite Schemas spec describes a colaborative approach towards build a single graph composed from multiple
 _subgraphs_ by specifying the algorithms to merge different GraphQL _subgraph_s chemas into a single
-_fusiongraph_.
+_supergraph_.
 
-Two subgraphs exposing a type with the same name form a distributed type in the _fusiongraph_.
+Two subgraphs exposing a type with the same name form a distributed type in the _supergraph_.
 
 ```graphql example
 # subgraph 1

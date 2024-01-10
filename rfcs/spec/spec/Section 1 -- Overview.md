@@ -20,7 +20,7 @@ tooling and gateways from  different implementers, the schema composition and th
   the core execution algorithms.
 
 The GraphQL Composite Schemas spec describes a colaborative approach towards build a single graph composed from multiple
-_subgraphs_ by specifying the algorithms to merge different GraphQL _subgraph_s chemas into a single
+_subgraphs_ by specifying the algorithms to merge different GraphQL _subgraph_ schemas into a single
 _supergraph_.
 
 Two subgraphs exposing a type with the same name form a distributed type in the _supergraph_.

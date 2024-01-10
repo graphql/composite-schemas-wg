@@ -38,7 +38,7 @@ type SomeType {
   c: String
 }
 
-# fusiongraph
+# supergraph
 type SomeType {
   a: String
   b: String

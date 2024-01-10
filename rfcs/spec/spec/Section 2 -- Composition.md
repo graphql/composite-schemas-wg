@@ -19,22 +19,48 @@ without any directives.
 directive @entityResolver on FIELD_DEFINITION
 ```
 
+Entity resolvers are fields on the query root type of a subgraph that can resolve an entity by a stable key. The stable key is defined by the arguments of the entity resolver field.
+
 ```graphql example
 extend type Query {
-  version: Int
+  version: Int # NOT an entity resolver.
   personById(id: ID!): Person @entityResolver
 }
+
+extend type Person {
+  id: ID!
+}
 ```
+
+The arguments of an entity resolver field must match fields of the returning type.
 
 ```graphql example
 extend type Query {
   node(id: ID!): Node @entityResolver
 }
+
+interface Node {
+  id: ID!
+}
 ```
+
+When an entity resolver returns an interface all implementing types are infered as entities.
 
 ```graphql example
 extend type Query {
-  _entities(representation: [Any!]!): Node @entityResolver
+  entityById(id: ID!, categoryId: Int): Entity @entityResolver
+}
+
+union Entity = Cat | Dog
+
+extend type Dog {
+  id: ID!
+  categoryId: Int
+}
+
+extend type Cat {
+  id: ID!
+  categoryId: Int
 }
 ```
 

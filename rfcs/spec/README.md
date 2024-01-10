@@ -8,4 +8,3 @@ To generate the output, follow these steps:
 
 1. Run `yarn build`. This will create the necessary output files.
 1. The generated HTML output will be located in the file `./SPECIFICATION.html.`
-

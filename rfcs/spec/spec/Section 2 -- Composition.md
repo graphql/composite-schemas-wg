@@ -11,9 +11,7 @@ Composition directives offer instructions for the schema composition process, de
 member semantics and specifying type transformations. In many cases subgraph schemas can be composed
 without any directives.
 
-### Entities
-
-#### @entityResolver
+### @entityResolver
 
 ```graphql
 directive @entityResolver on FIELD_DEFINITION
@@ -64,7 +62,7 @@ extend type Cat {
 }
 ```
 
-#### @is
+### @is
 
 ```graphql
 directive @is(
@@ -127,9 +125,7 @@ extend type Review {
 - `field`: Represents a GraphQL field selection syntax that refers to field relative to the current type; or, when used on arguments it refers to a field relative to the return type.
 - `coordinate`: Represents a schema coordinate that refers to a type system member.
 
-### Shared Data
-
-#### @shareable
+### @shareable
 
 ```graphql
 directive @shareable repeatable on OBJECT | FIELD_DEFINITION
@@ -143,7 +139,7 @@ If multiple subgraphs define the same field, these are assumed to be semanticall
 
 Note: Key fields are always considered sharable.
 
-#### @require
+### @require
 
 ```graphql
 directive @require(
@@ -176,7 +172,7 @@ type Product {
 }
 ```
 
-#### @provides
+### @provides
 
 ```graphql
 directive @provides(fields: SelectionSet!) on FIELD_DEFINITION
@@ -186,7 +182,7 @@ The `@providse` directive is an optimization hint specifying child fields that
 can be resolved locally at the given subgraph through a particular query path.
 This allows for a variation of overlapping field to improve data fetching.
 
-#### @external
+### @external
 
 ```graphql
 directive @external on OBJECT_DEFINITION | INTERFACE_DEFINITION | FIELD_DEFINITION
@@ -194,7 +190,7 @@ directive @external on OBJECT_DEFINITION | INTERFACE_DEFINITION | FIELD_DEFINITI
 
 The `@external` directive is used in combination with the `@provides` directive and specifies data that is not owned ba a particular subgraph.
 
-#### @override
+### @override
 
 ```graphql
 directive @override(from: String!) on FIELD_DEFINITION
@@ -202,9 +198,7 @@ directive @override(from: String!) on FIELD_DEFINITION
 
 The `@override` directive allows to migrate fields from one subgraph to another.
 
-### Reshaping
-
-#### @internal
+### @internal
 
 ```graphql
 directive @internal on OBJECT | INTERFACE | FIELD_DEFINITION | UNION | ENUM | ENUM_VALUE | INPUT_OBJECT | INPUT_FIELD_DEFINITION | SCALAR

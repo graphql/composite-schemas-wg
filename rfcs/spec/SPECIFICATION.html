@@ -81,30 +81,21 @@ This is an example of a non-normative note.</div>
 <div class="title">Contents</div>
 <ol>
 <li><a href="#sec-Overview"><span class="spec-secid">1</span>Overview</a><ol>
-<li><a href="#sec-Overview.Entities"><span class="spec-secid">1.1</span>Entities</a></li>
+<li><a href="#sec-Entities"><span class="spec-secid">1.1</span>Entities</a></li>
 <li><a href="#sec-Keys"><span class="spec-secid">1.2</span>Keys</a></li>
 </ol>
 </li>
 <li><a href="#sec-Composition"><span class="spec-secid">2</span>Composition</a><ol>
 <li><a href="#sec-Directives"><span class="spec-secid">2.1</span>Directives</a><ol>
-<li><a href="#sec-Directives.Entities"><span class="spec-secid">2.1.1</span>Entities</a><ol>
-<li><a href="#sec--entityResolver"><span class="spec-secid">2.1.1.1</span>@entityResolver</a></li>
-<li><a href="#sec--is"><span class="spec-secid">2.1.1.2</span>@is</a></li>
-</ol>
-</li>
-<li><a href="#sec-Shared-Data"><span class="spec-secid">2.1.2</span>Shared Data</a><ol>
-<li><a href="#sec--shareable"><span class="spec-secid">2.1.2.1</span>@shareable</a></li>
-<li><a href="#sec--require"><span class="spec-secid">2.1.2.2</span>@require</a></li>
-<li><a href="#sec--provides"><span class="spec-secid">2.1.2.3</span>@provides</a></li>
-<li><a href="#sec--external"><span class="spec-secid">2.1.2.4</span>@external</a></li>
-<li><a href="#sec--override"><span class="spec-secid">2.1.2.5</span>@override</a></li>
-</ol>
-</li>
-<li><a href="#sec-Reshaping"><span class="spec-secid">2.1.3</span>Reshaping</a><ol>
-<li><a href="#sec--internal"><span class="spec-secid">2.1.3.1</span>@internal</a></li>
-</ol>
-</li>
-<li><a href="#sec-SchemaCoordinate"><span class="spec-secid">2.1.4</span>SchemaCoordinate</a></li>
+<li><a href="#sec--entityResolver"><span class="spec-secid">2.1.1</span>@entityResolver</a></li>
+<li><a href="#sec--is"><span class="spec-secid">2.1.2</span>@is</a></li>
+<li><a href="#sec--shareable"><span class="spec-secid">2.1.3</span>@shareable</a></li>
+<li><a href="#sec--require"><span class="spec-secid">2.1.4</span>@require</a></li>
+<li><a href="#sec--provides"><span class="spec-secid">2.1.5</span>@provides</a></li>
+<li><a href="#sec--external"><span class="spec-secid">2.1.6</span>@external</a></li>
+<li><a href="#sec--override"><span class="spec-secid">2.1.7</span>@override</a></li>
+<li><a href="#sec--internal"><span class="spec-secid">2.1.8</span>@internal</a></li>
+<li><a href="#sec-SchemaCoordinate"><span class="spec-secid">2.1.9</span>SchemaCoordinate</a></li>
 </ol>
 </li>
 <li><a href="#sec-Validate"><span class="spec-secid">2.2</span>Validate</a><ol>
@@ -217,7 +208,7 @@ This is an example of a non-normative note.</div>
 <li><strong>Composition</strong>: The schema composition describes a process of merging subgraph schemas into a single GraphQL schema. This schema is annotated with execution directives and is referred to as the Gateway Configuration.</li>
 <li><strong>Execution</strong>: The distributed GraphQL executor specifies the Gateway Configuration and the core execution algorithms.</li>
 </ul>
-<p>The GraphQL Composite Schemas spec describes a colaborative approach towards build a single graph composed from multiple <em>subgraphs</em> by specifying the algorithms to merge different GraphQL <em>subgraph</em>s chemas into a single <em>supergraph</em>.</p>
+<p>The GraphQL Composite Schemas spec describes a colaborative approach towards build a single graph composed from multiple <em>subgraphs</em> by specifying the algorithms to merge different GraphQL <em>subgraph</em> schemas into a single <em>supergraph</em>.</p>
 <p>Two subgraphs exposing a type with the same name form a distributed type in the <em>supergraph</em>.</p>
 <pre id="example-4baef" class="spec-example" data-language="graphql"><a href="#example-4baef">Example № 3</a><code><span class="token comment"># subgraph 1</span>
 <span class="token keyword">type</span> <span class="token class-name">SomeType</span> <span class="token punctuation">{</span>
@@ -238,8 +229,8 @@ This is an example of a non-normative note.</div>
   <span class="token attr-name">c</span><span class="token punctuation">:</span> <span class="token scalar">String</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<section id="sec-Overview.Entities" secid="1.1">
-<h2><span class="spec-secid" title="link to this section"><a href="#sec-Overview.Entities">1.1</a></span>Entities</h2>
+<section id="sec-Entities" secid="1.1">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Entities">1.1</a></span>Entities</h2>
 <p>Entities are objects with a stable identity that endure over time. They typically represent core domain objects that act as entry points to a graph. In a distributed architecture, each <em>subgraph</em> can contribute different fields to the same entity, and is responsible for resolving only the fields that it contributes. In such an architecture, entities effectively act as hubs that enable transparent traversal across service boundaries.</p>
 </section>
 <section id="sec-Keys" secid="1.2">
@@ -253,10 +244,8 @@ This is an example of a non-normative note.</div>
 <section id="sec-Directives" secid="2.1">
 <h2><span class="spec-secid" title="link to this section"><a href="#sec-Directives">2.1</a></span>Directives</h2>
 <p>Composition directives offer instructions for the schema composition process, detailing type system member semantics and specifying type transformations. In many cases subgraph schemas can be composed without any directives.</p>
-<section id="sec-Directives.Entities" secid="2.1.1">
-<h3><span class="spec-secid" title="link to this section"><a href="#sec-Directives.Entities">2.1.1</a></span>Entities</h3>
-<section id="sec--entityResolver" secid="2.1.1.1">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--entityResolver">2.1.1.1</a></span>@entityResolver</h4>
+<section id="sec--entityResolver" secid="2.1.1">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--entityResolver">2.1.1</a></span>@entityResolver</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@entityResolver</span> <span class="token keyword">on</span> <span class="token constant">FIELD_DEFINITION</span>
 </code></pre>
 <p>Entity resolvers are fields on the query root type of a subgraph that can resolve an entity by a stable key. The stable key is defined by the arguments of the entity resolver field.</p>
@@ -296,8 +285,8 @@ This is an example of a non-normative note.</div>
 <span class="token punctuation">}</span>
 </code></pre>
 </section>
-<section id="sec--is" secid="2.1.1.2">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--is">2.1.1.2</a></span>@is</h4>
+<section id="sec--is" secid="2.1.2">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--is">2.1.2</a></span>@is</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@is</span><span class="token punctuation">(</span>
   <span class="token attr-name">field</span><span class="token punctuation">:</span> <span class="token class-name">FieldSelection</span>
   <span class="token attr-name">coordinate</span><span class="token punctuation">:</span> <span class="token class-name">SchemaCoordinate</span>
@@ -344,11 +333,8 @@ This is an example of a non-normative note.</div>
 </ul>
 </section>
 </section>
-</section>
-<section id="sec-Shared-Data" secid="2.1.2">
-<h3><span class="spec-secid" title="link to this section"><a href="#sec-Shared-Data">2.1.2</a></span>Shared Data</h3>
-<section id="sec--shareable" secid="2.1.2.1">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--shareable">2.1.2.1</a></span>@shareable</h4>
+<section id="sec--shareable" secid="2.1.3">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--shareable">2.1.3</a></span>@shareable</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@shareable</span> <span class="token keyword">repeatable</span> <span class="token keyword">on</span> <span class="token constant">OBJECT</span> <span class="token operator">|</span> <span class="token constant">FIELD_DEFINITION</span>
 </code></pre>
 <p>By default, only one subgraph is allowed to contribute a particular field to an object type. This prevents subgraphs from inadvertently defining similarly named fields that are semantically not the same.</p>
@@ -358,8 +344,8 @@ This is an example of a non-normative note.</div>
 <a href="#note-1634f">Note</a>
 Key fields are always considered sharable.</div>
 </section>
-<section id="sec--require" secid="2.1.2.2">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--require">2.1.2.2</a></span>@require</h4>
+<section id="sec--require" secid="2.1.4">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--require">2.1.4</a></span>@require</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@require</span><span class="token punctuation">(</span>
   <span class="token attr-name">field</span><span class="token punctuation">:</span> <span class="token class-name">FieldSelection</span><span class="token operator">!</span>
 <span class="token punctuation">)</span> <span class="token keyword">on</span> <span class="token constant">ARGUMENT_DEFINITION</span> <span class="token operator">|</span> <span class="token constant">INPUT_FIELD_DEFINITION</span>
@@ -384,36 +370,32 @@ Key fields are always considered sharable.</div>
 <span class="token punctuation">}</span>
 </code></pre>
 </section>
-<section id="sec--provides" secid="2.1.2.3">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--provides">2.1.2.3</a></span>@provides</h4>
+<section id="sec--provides" secid="2.1.5">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--provides">2.1.5</a></span>@provides</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@provides</span><span class="token punctuation">(</span><span class="token attr-name">fields</span><span class="token punctuation">:</span> <span class="token class-name">SelectionSet</span><span class="token operator">!</span><span class="token punctuation">)</span> <span class="token keyword">on</span> <span class="token constant">FIELD_DEFINITION</span>
 </code></pre>
 <p>The <code>@providse</code> directive is an optimization hint specifying child fields that can be resolved locally at the given subgraph through a particular query path. This allows for a variation of overlapping field to improve data fetching.</p>
 </section>
-<section id="sec--external" secid="2.1.2.4">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--external">2.1.2.4</a></span>@external</h4>
+<section id="sec--external" secid="2.1.6">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--external">2.1.6</a></span>@external</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@external</span> <span class="token keyword">on</span> <span class="token constant">OBJECT_DEFINITION</span> <span class="token operator">|</span> <span class="token constant">INTERFACE_DEFINITION</span> <span class="token operator">|</span> <span class="token constant">FIELD_DEFINITION</span>
 </code></pre>
 <p>The <code>@external</code> directive is used in combination with the <code>@provides</code> directive and specifies data that is not owned ba a particular subgraph.</p>
 </section>
-<section id="sec--override" secid="2.1.2.5">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--override">2.1.2.5</a></span>@override</h4>
+<section id="sec--override" secid="2.1.7">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--override">2.1.7</a></span>@override</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@override</span><span class="token punctuation">(</span><span class="token attr-name">from</span><span class="token punctuation">:</span> <span class="token scalar">String</span><span class="token operator">!</span><span class="token punctuation">)</span> <span class="token keyword">on</span> <span class="token constant">FIELD_DEFINITION</span>
 </code></pre>
 <p>The <code>@override</code> directive allows to migrate fields from one subgraph to another.</p>
 </section>
-</section>
-<section id="sec-Reshaping" secid="2.1.3">
-<h3><span class="spec-secid" title="link to this section"><a href="#sec-Reshaping">2.1.3</a></span>Reshaping</h3>
-<section id="sec--internal" secid="2.1.3.1">
-<h4><span class="spec-secid" title="link to this section"><a href="#sec--internal">2.1.3.1</a></span>@internal</h4>
+<section id="sec--internal" secid="2.1.8">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec--internal">2.1.8</a></span>@internal</h3>
 <pre data-language="graphql"><code><span class="token keyword">directive</span> <span class="token directive function">@internal</span> <span class="token keyword">on</span> <span class="token constant">OBJECT</span> <span class="token operator">|</span> <span class="token constant">INTERFACE</span> <span class="token operator">|</span> <span class="token constant">FIELD_DEFINITION</span> <span class="token operator">|</span> <span class="token constant">UNION</span> <span class="token operator">|</span> <span class="token constant">ENUM</span> <span class="token operator">|</span> <span class="token constant">ENUM_VALUE</span> <span class="token operator">|</span> <span class="token constant">INPUT_OBJECT</span> <span class="token operator">|</span> <span class="token constant">INPUT_FIELD_DEFINITION</span> <span class="token operator">|</span> <span class="token constant">SCALAR</span>
 </code></pre>
 <p>The <code>@internal</code> directive signals to the composition process that annotated type system members shall not be included into the public schema but still can be used by the executor to build resolvers.</p>
 </section>
-</section>
-<section id="sec-SchemaCoordinate" secid="2.1.4">
-<h3><span class="spec-secid" title="link to this section"><a href="#sec-SchemaCoordinate">2.1.4</a></span>SchemaCoordinate</h3>
+<section id="sec-SchemaCoordinate" secid="2.1.9">
+<h3><span class="spec-secid" title="link to this section"><a href="#sec-SchemaCoordinate">2.1.9</a></span>SchemaCoordinate</h3>
 <pre data-language="graphql"><code><span class="token keyword">scalar</span> <span class="token class-name">SchemaCoordinate</span>
 </code></pre>
 <p>The <code>SchemaCoordinate</code> scalar represents a schema coordinate syntax.</p>
@@ -3254,7 +3236,7 @@ Written in <a href="https://spec-md.com" target="_blank">Spec Markdown</a>.</foo
 <ol><li id="_sidebar_1"><a href="#sec-Overview"><span class="spec-secid">1</span>Overview</a>
 <input hidden class="toggle" type="checkbox" id="_toggle_1" /><label for="_toggle_1"></label>
 <ol>
-<li id="_sidebar_1.1"><a href="#sec-Overview.Entities"><span class="spec-secid">1.1</span>Entities</a></li>
+<li id="_sidebar_1.1"><a href="#sec-Entities"><span class="spec-secid">1.1</span>Entities</a></li>
 <li id="_sidebar_1.2"><a href="#sec-Keys"><span class="spec-secid">1.2</span>Keys</a></li>
 </ol>
 </li>
@@ -3264,30 +3246,15 @@ Written in <a href="https://spec-md.com" target="_blank">Spec Markdown</a>.</foo
 <li id="_sidebar_2.1"><a href="#sec-Directives"><span class="spec-secid">2.1</span>Directives</a>
 <input hidden class="toggle" type="checkbox" id="_toggle_2.1" /><label for="_toggle_2.1"></label>
 <ol>
-<li id="_sidebar_2.1.1"><a href="#sec-Directives.Entities"><span class="spec-secid">2.1.1</span>Entities</a>
-<input hidden class="toggle" type="checkbox" id="_toggle_2.1.1" /><label for="_toggle_2.1.1"></label>
-<ol>
-<li id="_sidebar_2.1.1.1"><a href="#sec--entityResolver"><span class="spec-secid">2.1.1.1</span>@entityResolver</a></li>
-<li id="_sidebar_2.1.1.2"><a href="#sec--is"><span class="spec-secid">2.1.1.2</span>@is</a></li>
-</ol>
-</li>
-<li id="_sidebar_2.1.2"><a href="#sec-Shared-Data"><span class="spec-secid">2.1.2</span>Shared Data</a>
-<input hidden class="toggle" type="checkbox" id="_toggle_2.1.2" /><label for="_toggle_2.1.2"></label>
-<ol>
-<li id="_sidebar_2.1.2.1"><a href="#sec--shareable"><span class="spec-secid">2.1.2.1</span>@shareable</a></li>
-<li id="_sidebar_2.1.2.2"><a href="#sec--require"><span class="spec-secid">2.1.2.2</span>@require</a></li>
-<li id="_sidebar_2.1.2.3"><a href="#sec--provides"><span class="spec-secid">2.1.2.3</span>@provides</a></li>
-<li id="_sidebar_2.1.2.4"><a href="#sec--external"><span class="spec-secid">2.1.2.4</span>@external</a></li>
-<li id="_sidebar_2.1.2.5"><a href="#sec--override"><span class="spec-secid">2.1.2.5</span>@override</a></li>
-</ol>
-</li>
-<li id="_sidebar_2.1.3"><a href="#sec-Reshaping"><span class="spec-secid">2.1.3</span>Reshaping</a>
-<input hidden class="toggle" type="checkbox" id="_toggle_2.1.3" /><label for="_toggle_2.1.3"></label>
-<ol>
-<li id="_sidebar_2.1.3.1"><a href="#sec--internal"><span class="spec-secid">2.1.3.1</span>@internal</a></li>
-</ol>
-</li>
-<li id="_sidebar_2.1.4"><a href="#sec-SchemaCoordinate"><span class="spec-secid">2.1.4</span>SchemaCoordinate</a></li>
+<li id="_sidebar_2.1.1"><a href="#sec--entityResolver"><span class="spec-secid">2.1.1</span>@entityResolver</a></li>
+<li id="_sidebar_2.1.2"><a href="#sec--is"><span class="spec-secid">2.1.2</span>@is</a></li>
+<li id="_sidebar_2.1.3"><a href="#sec--shareable"><span class="spec-secid">2.1.3</span>@shareable</a></li>
+<li id="_sidebar_2.1.4"><a href="#sec--require"><span class="spec-secid">2.1.4</span>@require</a></li>
+<li id="_sidebar_2.1.5"><a href="#sec--provides"><span class="spec-secid">2.1.5</span>@provides</a></li>
+<li id="_sidebar_2.1.6"><a href="#sec--external"><span class="spec-secid">2.1.6</span>@external</a></li>
+<li id="_sidebar_2.1.7"><a href="#sec--override"><span class="spec-secid">2.1.7</span>@override</a></li>
+<li id="_sidebar_2.1.8"><a href="#sec--internal"><span class="spec-secid">2.1.8</span>@internal</a></li>
+<li id="_sidebar_2.1.9"><a href="#sec-SchemaCoordinate"><span class="spec-secid">2.1.9</span>SchemaCoordinate</a></li>
 </ol>
 </li>
 <li id="_sidebar_2.2"><a href="#sec-Validate"><span class="spec-secid">2.2</span>Validate</a>

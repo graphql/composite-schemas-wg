@@ -46,6 +46,14 @@ type SomeType {
 }
 ```
 
+## Subgraph
+
+The GraphQL Composite Schemas spec refers to downstream GraphQL APIs that have been designed for composition as subgraphs. These subgraphs may have additional directives specified in the composition section to specify semantics of type system members to the composition.
+
+## Supergraph
+
+The result of a succesful composition is a single GraphQL schema that is annotated with execution directives. This schema document represents the configuration for the distributed GraphQL executor and is called _supergraph_.
+
 ## Entities
 
 Entities are objects with a stable identity that endure over time. They typically represent core domain objects that act as entry points to a graph. In a distributed architecture, each _subgraph_ can contribute different fields to the same entity, and is responsible for resolving only the fields that it contributes. In such an architecture, entities effectively act as hubs that enable transparent traversal across service boundaries.

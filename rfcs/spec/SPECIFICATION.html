@@ -81,8 +81,10 @@ This is an example of a non-normative note.</div>
 <div class="title">Contents</div>
 <ol>
 <li><a href="#sec-Overview"><span class="spec-secid">1</span>Overview</a><ol>
-<li><a href="#sec-Entities"><span class="spec-secid">1.1</span>Entities</a></li>
-<li><a href="#sec-Keys"><span class="spec-secid">1.2</span>Keys</a></li>
+<li><a href="#sec-Subgraph"><span class="spec-secid">1.1</span>Subgraph</a></li>
+<li><a href="#sec-Supergraph"><span class="spec-secid">1.2</span>Supergraph</a></li>
+<li><a href="#sec-Entities"><span class="spec-secid">1.3</span>Entities</a></li>
+<li><a href="#sec-Keys"><span class="spec-secid">1.4</span>Keys</a></li>
 </ol>
 </li>
 <li><a href="#sec-Composition"><span class="spec-secid">2</span>Composition</a><ol>
@@ -167,7 +169,7 @@ This is an example of a non-normative note.</div>
 <li><a href="#sec-ToListType"><span class="spec-secid">2.3.15</span>ToListType</a></li>
 </ol>
 </li>
-<li><a href="#sec-Finalize"><span class="spec-secid">2.4</span>Finalize</a></li>
+<li><a href="#sec-Satisfiability"><span class="spec-secid">2.4</span>Satisfiability</a></li>
 </ol>
 </li>
 <li><a href="#sec-Executor"><span class="spec-secid">3</span>Executor</a><ol>
@@ -229,12 +231,20 @@ This is an example of a non-normative note.</div>
   <span class="token attr-name">c</span><span class="token punctuation">:</span> <span class="token scalar">String</span>
 <span class="token punctuation">}</span>
 </code></pre>
-<section id="sec-Entities" secid="1.1">
-<h2><span class="spec-secid" title="link to this section"><a href="#sec-Entities">1.1</a></span>Entities</h2>
+<section id="sec-Subgraph" secid="1.1">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Subgraph">1.1</a></span>Subgraph</h2>
+<p>The GraphQL Composite Schemas spec refers to downstream GraphQL APIs that have been designed for composition as subgraphs. These subgraphs may have additional directives specified in the composition section to specify semantics of type system members to the composition.</p>
+</section>
+<section id="sec-Supergraph" secid="1.2">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Supergraph">1.2</a></span>Supergraph</h2>
+<p>The result of a succesful composition is a single GraphQL schema that is annotated with execution directives. This schema document represents the configuration for the distributed GraphQL executor and is called <em>supergraph</em>.</p>
+</section>
+<section id="sec-Entities" secid="1.3">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Entities">1.3</a></span>Entities</h2>
 <p>Entities are objects with a stable identity that endure over time. They typically represent core domain objects that act as entry points to a graph. In a distributed architecture, each <em>subgraph</em> can contribute different fields to the same entity, and is responsible for resolving only the fields that it contributes. In such an architecture, entities effectively act as hubs that enable transparent traversal across service boundaries.</p>
 </section>
-<section id="sec-Keys" secid="1.2">
-<h2><span class="spec-secid" title="link to this section"><a href="#sec-Keys">1.2</a></span>Keys</h2>
+<section id="sec-Keys" secid="1.4">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Keys">1.4</a></span>Keys</h2>
 <p>A representation of an object&rsquo;s identity is known as a key. Keys consist of one or more fields from an object, and are infered from the entity resolvers. An entity can have many keys as entities can have many entity resolvers. </p>
 </section>
 </section>
@@ -2833,8 +2843,8 @@ Key fields are always considered sharable.</div>
 </code></pre>
 </section>
 </section>
-<section id="sec-Finalize" secid="2.4">
-<h2><span class="spec-secid" title="link to this section"><a href="#sec-Finalize">2.4</a></span>Finalize</h2>
+<section id="sec-Satisfiability" secid="2.4">
+<h2><span class="spec-secid" title="link to this section"><a href="#sec-Satisfiability">2.4</a></span>Satisfiability</h2>
 </section>
 </section>
 <section id="sec-Executor" secid="3">
@@ -3236,8 +3246,10 @@ Written in <a href="https://spec-md.com" target="_blank">Spec Markdown</a>.</foo
 <ol><li id="_sidebar_1"><a href="#sec-Overview"><span class="spec-secid">1</span>Overview</a>
 <input hidden class="toggle" type="checkbox" id="_toggle_1" /><label for="_toggle_1"></label>
 <ol>
-<li id="_sidebar_1.1"><a href="#sec-Entities"><span class="spec-secid">1.1</span>Entities</a></li>
-<li id="_sidebar_1.2"><a href="#sec-Keys"><span class="spec-secid">1.2</span>Keys</a></li>
+<li id="_sidebar_1.1"><a href="#sec-Subgraph"><span class="spec-secid">1.1</span>Subgraph</a></li>
+<li id="_sidebar_1.2"><a href="#sec-Supergraph"><span class="spec-secid">1.2</span>Supergraph</a></li>
+<li id="_sidebar_1.3"><a href="#sec-Entities"><span class="spec-secid">1.3</span>Entities</a></li>
+<li id="_sidebar_1.4"><a href="#sec-Keys"><span class="spec-secid">1.4</span>Keys</a></li>
 </ol>
 </li>
 <li id="_sidebar_2"><a href="#sec-Composition"><span class="spec-secid">2</span>Composition</a>
@@ -3348,7 +3360,7 @@ Written in <a href="https://spec-md.com" target="_blank">Spec Markdown</a>.</foo
 <li id="_sidebar_2.3.15"><a href="#sec-ToListType"><span class="spec-secid">2.3.15</span>ToListType</a></li>
 </ol>
 </li>
-<li id="_sidebar_2.4"><a href="#sec-Finalize"><span class="spec-secid">2.4</span>Finalize</a></li>
+<li id="_sidebar_2.4"><a href="#sec-Satisfiability"><span class="spec-secid">2.4</span>Satisfiability</a></li>
 </ol>
 </li>
 <li id="_sidebar_3"><a href="#sec-Executor"><span class="spec-secid">3</span>Executor</a>

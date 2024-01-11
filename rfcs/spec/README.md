@@ -1,6 +1,6 @@
 ## Specification
 
-The project specification can be found in the following file: `spec/Fusion.md`
+The project specification can be found in the following file: `spec/Spec.md`
 
 ## Generating Output
 

@@ -104,6 +104,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Michael Staib (host) | @michaelstaib | ChilliCream  | Zurich, CH |
 | Kamil Kisiela (not a host) | @kamilkisiela | The Guild  | Warsaw, PL |
 | John Starich         | @JohnStarich  | IBM          | Austin, TX, USA |
+| Martijn Walraven     | @martijnwalraven | Apollo    | Amsterdam, NL
 
 ## Agenda
 

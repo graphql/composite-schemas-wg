@@ -102,6 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name                 | GitHub        | Organization | Location   |
 | :------------------- | :------------ | :----------- | :--------- |
 | Michael Staib (host) | @michaelstaib | ChilliCream  | Zurich, CH |
+| Kamil Kisiela (not a host) | @kamilkisiela | The Guild  | Warsaw, PL |
 
 ## Agenda
 

@@ -101,10 +101,11 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name                 | GitHub        | Organization | Location   |
 | :------------------- | :------------ | :----------- | :--------- |
-| Michael Staib (host) | @michaelstaib | ChilliCream  | Zurich, CH |
-| Kamil Kisiela (not a host) | @kamilkisiela | The Guild  | Warsaw, PL |
+| Michael Staib (Host) | @michaelstaib | ChilliCream  | Zurich, CH |
+| Kamil Kisiela        | @kamilkisiela | The Guild    | Warsaw, PL |
 | John Starich         | @JohnStarich  | IBM          | Austin, TX, USA |
-| Pascal Senn (also not a host) | @PascalSenn | ChilliCream  | Zurich, CH |
+| Pascal Senn          | @PascalSenn   | ChilliCream  | Zurich, CH |
+| Martijn Walraven     | @martijnwalraven | Apollo    | Amsterdam, NL
 
 ## Agenda
 

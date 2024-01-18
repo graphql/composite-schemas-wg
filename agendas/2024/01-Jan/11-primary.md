@@ -105,6 +105,10 @@ PascalSenn              | @PascalSenn            | ChilliCream            | Zuri
 Kamil Kisiela           | @kamilkisiela          | The Guild              | Warsaw, PL
 Martijn Walraven        | @martijnwalraven       | Apollo                 | Amsterdam, NL
 Jeff Auriemma           | @bignimbus             | Apollo                 | Monroe, CT, USA
+Martin Bonnin           | @martinbonnin          | Apollo                 | Paris, FR
+Dotan Simha             | @dotansimha            | The Guild              | Ramat Gan, IL
+Arda TANRIKULU          | @ardatan               | The Guild              | Istanbul, TR
+Laurin Quast            | @n1ru4l                | The Guild              | Baden-Württemberg, DE
 
 ## Agenda
 
@@ -118,5 +122,4 @@ Jeff Auriemma           | @bignimbus             | Apollo                 | Monr
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Review previous meeting's action items (5m, Host)
-1. Disambiguation of terms: Composite Schemas, Federation, Fusion (10m, Jeff Auriemma [open discussion])
-1. Introduction to the Fusion Spec (20m, @michaelstaib)
+1. Setup working process for spec work (20m, @michaelstaib and @martijnwalraven)

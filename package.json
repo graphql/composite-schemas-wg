@@ -1,15 +1,17 @@
 {
-  "name": "graphql-subcommittee",
+  "name": "graphql-composite-schema-spec",
   "private": true,
   "license": "OWFa-1.0",
   "scripts": {
+    "build": "node build.js",
     "test:spellcheck": "cspell \"**/*.md\"",
     "format": "prettier --write \"**/*.{md,yml,yaml,json}\"",
     "format:check": "prettier --check \"**/*.{md,yml,yaml,json}\""
   },
   "devDependencies": {
     "cspell": "5.9.1",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "spec-md": "^3.1.0"
   },
   "prettier": {
     "proseWrap": "always",

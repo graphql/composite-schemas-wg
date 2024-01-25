@@ -107,6 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| John Starich     | @JohnStarich  | IBM                | Austin, TX, USA       |
 
 ## Agenda
 

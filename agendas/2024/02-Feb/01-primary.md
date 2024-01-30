@@ -111,6 +111,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
 | Shane Myrick     | @smyrick      | Apollo GraphQL     | Seattle, WA           |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 
 ## Agenda
 

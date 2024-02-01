@@ -119,6 +119,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Rafael Staib     | @rstaib       | ChilliCream        | Zurich, CH            |
 | Michael Staib    | @michaelstaib | ChilliCream        | London, UK            |
 | Christian Sany   | @christiansany | Individual        | Zurich, CH            |
+| Praveen Durairaju | @praveenweb   | Hasura        	| San Francisco, CA     |
+| Sandip Devarkonda | @dsandip 	   | Hasura        	| San Francisco, CA     |
 
 ## Agenda
 

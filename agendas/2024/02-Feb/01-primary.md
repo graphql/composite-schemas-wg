@@ -117,6 +117,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Pascal Senn      | @PascalSenn   | ChilliCream        | Zurich, CH            |
 | Rafael Staib     | @rstaib       | ChilliCream        | Zurich, CH            |
 | Michael Staib    | @michaelstaib | ChilliCream        | London, UK            |
+| Christian Sany   | @christiansany | Individual        | Zurich, CH            |
 
 ## Agenda
 

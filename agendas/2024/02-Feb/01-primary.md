@@ -105,17 +105,17 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name                 | GitHub           | Organization       | Location              |
-| :------------------- | :--------------- | :----------------- | :-------------------- |
-| Benjie Gillam (Host) | @benjie          | Graphile           | Chandler's Ford, UK   |
-| John Starich         | @JohnStarich     | IBM                | Austin, TX, USA       |
-| Yaacov Rydzinski     | @yaacovCR        | Individual         | Neve Daniel, IL       |
-| Shane Myrick         | @smyrick         | Apollo GraphQL     | Seattle, WA           |
-| Jeff Auriemma        | @bignimbus       | Apollo             | Monroe, CT, USA       |
-| Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
-| Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
-| Pascal Senn          | @PascalSenn      | ChilliCream        | Zurich, CH            |
-| Rafael Staib         | @rstaib          | ChilliCream        | Zurich, CH            |
+| Name             | GitHub        | Organization       | Location              |
+| :--------------- | :------------ | :----------------- | :-------------------- |
+| Benjie Gillam (Host) | @benjie   | Graphile           | Chandler's Ford, UK   |
+| John Starich     | @JohnStarich  | IBM                | Austin, TX, USA       |
+| Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
+| Shane Myrick     | @smyrick      | Apollo GraphQL     | Seattle, WA           |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
+| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
+| Pascal Senn      | @PascalSenn   | ChilliCream        | Zurich, CH            |
+| Rafael Staib     | @rstaib       | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 

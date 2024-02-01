@@ -113,6 +113,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Shane Myrick     | @smyrick      | Apollo GraphQL     | Seattle, WA           |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
 
 ## Agenda
 

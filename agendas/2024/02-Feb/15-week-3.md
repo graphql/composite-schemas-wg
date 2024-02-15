@@ -105,6 +105,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Yaacov Rydzinski | @yaacovCR     | Individual         | Neve Daniel, IL       |
 | Shane Myrick     | @smyrick      | Apollo GraphQL     | Seattle, WA, USA      |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Praveen Durairaju| @praveenweb   | Hasura             | San Francisco, CA     |
 
 ## Agenda
 

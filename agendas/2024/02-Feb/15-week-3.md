@@ -107,7 +107,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | SimonSapin       | @SimonSapin   | Apollo GraphQL     | Paris, FR             |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 | Praveen Durairaju| @praveenweb   | Hasura             | San Francisco, CA     |
-| Pascal Senn| @pascalsenn   | ChilliCream             | Zürich, CH |
+| Benjamin Turner  | @benhead      | Google             | New York, NY, USA     |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zürich, CH            |
 
 ## Agenda
 

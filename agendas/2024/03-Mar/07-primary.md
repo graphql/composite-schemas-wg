@@ -105,6 +105,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 | Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
 | Rafael Staib     | @rstaib       | ChilliCream        | Zurich, CH            |
+| Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 
 ## Agenda
 
@@ -125,3 +126,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
 1. Review Progress (10m, @michaelstaib)
+1. Collaboration on a blog post? (Jeff, 5 mins)

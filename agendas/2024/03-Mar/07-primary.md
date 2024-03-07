@@ -102,7 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Michael Staib    | @michaelstaib | ChilliCream        | Seattle, WA, US       |
-
+| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 
 ## Agenda
 

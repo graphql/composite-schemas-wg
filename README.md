@@ -28,6 +28,12 @@ or
 [ical file](https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics).
 (maintained in UTC because time zones are hard).
 
+To create the agenda files for a given month YYYY/MM, run the following command:
+
+```
+yarn && yarn gen-agenda YYYY MM
+```
+
 ### Joining a meeting?
 
 To request participation in an upcoming meeting, please send a pull request by

@@ -105,6 +105,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Shane Myrick     | @smyrick         | Apollo          | Seattle, WA, USA      |
 | Simon Sapin      | @SimonSapin      | Apollo          | Paris, FR             |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Kamil Kisiela    | @kamilkisiela    | The Guild       | Warsaw, PL            |
 
 ## Agenda
 

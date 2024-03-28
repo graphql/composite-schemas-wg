@@ -99,12 +99,13 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub           | Organization    | Location              |
-| :--------------- | :--------------- | :-------------- | :-------------------- |
-| Michael Staib (Host) | @michaelstaib | ChilliCream    | Zurich, CH            |
-| Shane Myrick     | @smyrick         | Apollo          | Seattle, WA, USA      |
-| Simon Sapin      | @SimonSapin      | Apollo          | Paris, FR             |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Name                 | GitHub           | Organization    | Location              |
+| :------------------- | :--------------- | :-------------- | :-------------------- |
+| Michael Staib (Host) | @michaelstaib    | ChilliCream     | Zurich, CH            |
+| Shane Myrick         | @smyrick         | Apollo          | Seattle, WA, USA      |
+| Simon Sapin          | @SimonSapin      | Apollo          | Paris, FR             |
+| Martijn Walraven     | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Pascal Senn (Host)  | @pascalsenn       | ChilliCream     | Zurich, CH            |
 
 ## Agenda
 

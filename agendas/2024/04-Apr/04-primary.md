@@ -102,6 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
+| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
 
 
 ## Agenda

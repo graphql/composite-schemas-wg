@@ -110,6 +110,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Rafael Staib     | @rstaib       | ChilliCream        | Zurich, CH            |
 | Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Simon Sapin      | @SimonSapin   | Apollo             | Paris, FR             |
+| Uri Goldshtein   | @urigo        | The Guild          | Tel Aviv, IL          |
 
 ## Agenda
 

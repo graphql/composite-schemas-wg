@@ -106,6 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Rafael Staib     | @rstaib       | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 

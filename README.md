@@ -16,6 +16,8 @@ This repository holds [agendas](./agendas) and [notes](./notes) for all meetings
 past and upcoming as well as [shared RFC documents](./rfcs). Anyone may edit an
 upcoming event's agenda to _attend_ or _propose an agenda item_.
 
+The results of this subcommittee being collaborated on in a separate spec repo: [graphql/composite-schemas-spec](https://github.com/graphql/composite-schemas-spec).
+
 All meetings occur via video conference, however participating company offices
 are welcome to host guests.
 

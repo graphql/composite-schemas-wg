@@ -4,8 +4,13 @@ This working group is a subcommittee of the
 [GraphQL Working Group](https://github.com/graphql/graphql-wg) with the
 following primary purpose:
 
-> To build a specification that covers many of the shared concerns when building
-> a larger GraphQL schema as a composite of many smaller GraphQL schemas.
+> To build [a specification](https://github.com/graphql/composite-schemas-spec/)
+> that covers many of the shared concerns when building> a larger GraphQL schema
+> as a composite of many smaller GraphQL schemas.
+
+The resulting work-in-progress "GraphQL Composite Schemas Specification" can be
+found in at
+[graphql/composite-schemas-spec](https://github.com/graphql/composite-schemas-spec).
 
 Anyone in the public GraphQL community may attend a meeting of this
 subcommittee, provided they first sign the
@@ -15,9 +20,6 @@ or belong to an organization which has signed.
 This repository holds [agendas](./agendas) and [notes](./notes) for all meetings
 past and upcoming as well as [shared RFC documents](./rfcs). Anyone may edit an
 upcoming event's agenda to _attend_ or _propose an agenda item_.
-
-The results of this subcommittee being collaborated on in a separate spec repo:
-[graphql/composite-schemas-spec](https://github.com/graphql/composite-schemas-spec).
 
 All meetings occur via video conference, however participating company offices
 are welcome to host guests.

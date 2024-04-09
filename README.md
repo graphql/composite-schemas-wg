@@ -5,7 +5,7 @@ This working group is a subcommittee of the
 following primary purpose:
 
 > To build [a specification](https://github.com/graphql/composite-schemas-spec/)
-> that covers many of the shared concerns when building> a larger GraphQL schema
+> that covers many of the shared concerns when building a larger GraphQL schema
 > as a composite of many smaller GraphQL schemas.
 
 The resulting work-in-progress "GraphQL Composite Schemas Specification" can be

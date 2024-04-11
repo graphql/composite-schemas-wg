@@ -100,11 +100,11 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 
 <!-- prettier-ignore -->
 
-| Name                 | GitHub        | Organization       | Location              |
-| :------------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib (Host) | @michaelstaib | ChilliCream Inc    | Zurich, CH            |
-| Simon Sapin          | @SimonSapin   | Apollo             | Paris, FR             |
-
+| Name                 | GitHub           | Organization       | Location              |
+| :------------------- | :--------------- | :----------------- | :-------------------- |
+| Michael Staib (Host) | @michaelstaib    | ChilliCream Inc    | Zurich, CH            |
+| Simon Sapin          | @SimonSapin      | Apollo             | Paris, FR             |
+| Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
 
 ## Agenda
 

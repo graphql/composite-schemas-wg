@@ -103,6 +103,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Simon Sapin      | @SimonSapin   | Apollo             | Paris, FR             |
 | Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda

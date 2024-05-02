@@ -102,6 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      |
+| Simon Sapin      | @SimonSapin   | Apollo             | Paris, FR             |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 

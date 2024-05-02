@@ -99,8 +99,9 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
+| Name             | GitHub           | Organization       | Location              |
 | :--------------- | :--------------- | :----------------- | :-------------------- |
+| Benjie Gillam (Host) | @benjie      | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib    | ChilliCream        | Zurich, CH            |
 | Shane Myrick     | @smyrick         | Apollo             | Seattle, WA, USA      |
 | Simon Sapin      | @SimonSapin      | Apollo             | Paris, FR             |

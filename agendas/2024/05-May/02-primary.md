@@ -106,8 +106,9 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Shane Myrick     | @smyrick         | Apollo             | Seattle, WA, USA      |
 | Simon Sapin      | @SimonSapin      | Apollo             | Paris, FR             |
 | Jeff Auriemma    | @bignimbus       | Apollo             | Monroe, CT, USA       |
-| Martijn Walraven | @martijnwalraven | Apollo             | Amsterdam, NL         |
-| Derek Kuc        | @dariuszkuc      | Apollo             | Chicago, IL, USA      |
+| Martijn Walraven | @martijnwalraven | Apollo             | Amsterdam, NL         | 
+| Pascal Senn      | @pascalsenn      | ChilliCream        | Zurich, CH            | 
+| Derek Kuc        | @dariuszkuc      | Apollo             | Chicago, IL, USA      | 
 
 ## Agenda
 

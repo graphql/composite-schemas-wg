@@ -99,14 +99,14 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      | 
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            | 
-| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
-| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            | 
+| Name                 | GitHub           | Organization       | Location              |
+| :------------------- | :--------------- | :----------------- | :-------------------- |
+| Michael Staib (Host) | @michaelstaib    | ChilliCream        | Zurich, CH            |
+| Shane Myrick         | @smyrick         | Apollo             | Seattle, WA, USA      |
+| Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, IL, USA      |
+| Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
+| Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
+| Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            | 
 
 ## Agenda
 
@@ -115,11 +115,11 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
    - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
    - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
-1. Discuss expression syntax for paths (10min, Pascal)
-1. Lists in `@requires` and `@key` (10min, Pascal)
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Review previous meeting's action items (5m, Host)
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
+1. Discuss expression syntax for paths (10min, Pascal)
+1. Lists in `@requires` and `@key` (10min, Pascal)

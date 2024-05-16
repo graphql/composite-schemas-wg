@@ -102,6 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
@@ -110,6 +111,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
    - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
    - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
+1. Discuss expression syntax for paths (10min, Pascal)
+1. Lists in `@requires` and `@key` (10min, Pascal)
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)

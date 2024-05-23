@@ -104,6 +104,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Michael Staib (Host) | @michaelstaib  | ChilliCream        | Zurich, CH            |
 | Derek Kuc            | @dariuszkuc    | Apollo             | Chicago, USA          |
 | Pascal Senn          | @pascalsenn    | ChilliCream        | Zurich                |
+| Martijn Walraven     | @martijnwalraven | Apollo           | Amsterdam, NL         | 
 
 ## Agenda
 
@@ -120,3 +121,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
 1. Review `FieldSelection` specification (15m, Pascal)
 1. Lookups/Patch (15m, michael)
+1. What are our current thoughts on spec naming? (5m, @martijnwalraven)

@@ -105,7 +105,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Shane Myrick         | @smyrick         | Apollo             | Seattle, WA, USA      |
 | Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
 | Giuseppe Abrignani   | @juiceppe        | the LEGO Group     | Copenhagen, DK        |
-| Derek Kuc.           | @dariuszkuc      | Apollo             | Chicago, USA          |
+| Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, USA          |
+| Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 

@@ -107,6 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Giuseppe Abrignani   | @juiceppe        | the LEGO Group     | Copenhagen, DK        |
 | Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, USA          |
 | Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            |
+| Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
 
 ## Agenda
 

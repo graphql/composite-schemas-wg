@@ -106,6 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, USA          |
 ] Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, Poland        |
 
 ## Agenda
 

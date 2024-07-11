@@ -105,6 +105,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | David A. Ventimiglia ✏️| @dventimihasura | Hasura | San Francisco |
 | Martijn Walraven | @martijnwalraven     | Apollo | Amsterdam, NL              |
 | Shane Myrick     | @smyrick             | Apollo | Seattle, WA                |
+| Derek Kuc        | @dariuszkuc          | Apollo | Chicago, USA               |
+| Pascal Senn      | @pascalsenn          | ChilliCream | Zurich, CH            |
 
 
 ## Agenda

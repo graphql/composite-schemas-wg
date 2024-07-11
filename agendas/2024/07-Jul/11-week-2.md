@@ -102,6 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | David A. Ventimiglia ✏️| dventimihasura | Hasura | San Francisco |
+| Martijn Walraven | @martijnwalraven     | Apollo | Amsterdam, NL              |
 
 
 ## Agenda

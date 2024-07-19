@@ -104,6 +104,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Shane Myrick     | @smyrick      | Apollo             | Seattle, WA           |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 | David Ventimiglia | @dventimihasura | Hasura          | San Francisco, CA     |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, USA          |
 | Kamil Kisiela    | @kamilkisiela    | The Guild       | Warsaw, PL            |
 
@@ -121,3 +122,5 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Review previous meeting's action items (5m, Host)
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
+1. Discussing the list values in the path syntax (20m, Pascal)
+1. Discussing nullability and null enforcement (10m, Pascal)

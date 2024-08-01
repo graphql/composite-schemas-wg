@@ -126,5 +126,6 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Review previous meeting's action items (5m, Host)
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-1. Review [Discussion 277](https://github.com/graphql/composite-schemas-wg/discussions/277#) on combining arbitrary schema
+1. Review Previous Progress (5m, Host)
+1. Continue Discussion [Discussion 277](https://github.com/graphql/composite-schemas-wg/discussions/277#) on combining arbitrary schema (20m, David)
 1. Continue Discussion about Composition Spec (20m, Pascal)

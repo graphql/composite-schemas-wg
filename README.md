@@ -1,3 +1,5 @@
+![GraphQLConf 2024 Banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/342c770c-f04b-4187-9937-c88b8a97aff1)
+
 # GraphQL Composite Schemas Working Group
 
 This working group is a subcommittee of the

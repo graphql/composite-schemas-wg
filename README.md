@@ -1,4 +1,4 @@
-[![GraphQLConf 2024 Banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/342c770c-f04b-4187-9937-c88b8a97aff1)](https://graphql.org/conf/2024/?utm_source=github&utm_medium=graphql_js&utm_campaign=readme)
+[![GraphQLConf 2024 Banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/342c770c-f04b-4187-9937-c88b8a97aff1)](https://graphql.org/conf/2024/?utm_source=github&utm_medium=composite_schemas_wg&utm_campaign=readme)
 
 # GraphQL Composite Schemas Working Group
 

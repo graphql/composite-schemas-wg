@@ -103,6 +103,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | :--------------------- | :----------------- | :----------------- | :-------------------- |
 | Michael Staib          | @michaelstaib      | ChilliCream        | Zurich, CH            |
 | Kamil Kisiela          | @kamilkisiela      | The Guild          | Warsaw, PL            |
+| Derek Kuc              | @dariuszkuc        | Apollo             | Chicago, USA          |
 
 
 ## Agenda

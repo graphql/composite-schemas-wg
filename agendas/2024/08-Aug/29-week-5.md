@@ -101,9 +101,10 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Shane Myrick     | @smyrick      | Apollo             | Seattle, WA           |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, USA          |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 
 ## Agenda
 

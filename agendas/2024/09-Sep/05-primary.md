@@ -101,12 +101,12 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib    | @michaelstaib | ChilliCream     | Zurich, CH           |
 | Shane Myrick     | @smyrick      | Apollo GraphQL     | Seattle, WA           |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
 | Benjie Gillam    | @benjie       | Graphile           | Chandler's Ford, UK   |
+| David A. Ventimiglia    | @dventimihasura       | Hasura           | San Francisco, USA   |
 
 
 ## Agenda

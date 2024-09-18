@@ -81,41 +81,4 @@ Schemas Specification" project.
 The first meeting each month is the primary monthly meeting; to enable a greater
 cadence of progress we also have weekly meetings which tend to be more informal.
 
-- **Date & Time**: [September 19, 2024, 4:00 – 5:00 PM UTC](https://www.timeanddate.com/worldclock/converter.html?iso=20240919T160000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
-  - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
-  - _Please Note:_ The date or time may change. Please check this agenda the
-    week of the meeting to confirm. While we try to keep all calendars accurate,
-    this agenda document is the source of truth.
-- **Video Conference Link**: https://zoom.us/j/91078840351
-  - _Password:_ composite
-- **Live Notes**: [Live Notes][]
-
-[calendar]: https://calendar.google.com/calendar/embed?src=linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com
-[google calendar]: https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t
-[ical file]: https://calendar.google.com/calendar/ical/linuxfoundation.org_ik79t9uuj2p32i3r203dgv5mo8%40group.calendar.google.com/public/basic.ics
-[JoiningAMeeting.md]: https://github.com/graphql/composite-schemas-wg/blob/main/JoiningAMeeting.md
-[live notes]: https://docs.google.com/document/d/1hJO6U7daYvcNcQ3FBKnh3v4R256ers6M8IGyqRpY_kE/edit?usp=sharing
-
-## Attendees
-
-<!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Shane Myrick     | @smyrick      | Apollo             | Seattle, WA           |
-
-
-## Agenda
-
-1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Host)
-   - [Specification Membership Agreement](https://github.com/graphql/foundation)
-   - [Participation Guidelines](https://github.com/graphql/graphql-wg#participation-guidelines)
-   - [Contribution Guide](https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md)
-   - [Code of Conduct](https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md)
-1. Introduction of attendees (5m, Host)
-1. Determine volunteers for note taking (1m, Host)
-1. Review agenda (2m, Host)
-1. Review previous meeting's action items (5m, Host)
-   - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
-   - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-1. Deprecate key usage (https://github.com/graphql/composite-schemas-spec/issues/51) (10m, Shane)
-1. Questions from conf panel: https://github.com/graphql/composite-schemas-wg/discussions/321 (20m, Shane)
+- **Date & Time**: **CANCELLED**

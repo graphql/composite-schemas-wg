@@ -106,6 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
 | Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, IL, USA      |
 | David Ventimiglia    | @dventimihasura  | Hasura             | San Francisco, CA     |
+| Stephen Spalding     | @fotoetienne     | Netflix            | Los Gatos, CA, USA    |
 
 ## Agenda
 

@@ -101,6 +101,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------------ | :----------------- | :-------------------- |
+| Benjie Gillam    | @benjie             | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib       | ChilliCream        | Zurich, CH            |
 | Shane Myrick     | @smyrick            | Apollo             | Seattle, WA           |
 | Martijn Walraven | @martijnwalraven    | Apollo             | Amsterdam, NL         |

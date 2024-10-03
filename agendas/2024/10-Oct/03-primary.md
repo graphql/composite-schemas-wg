@@ -104,8 +104,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Michael Staib    | @michaelstaib       | ChilliCream        | Zurich, CH            |
 | Shane Myrick     | @smyrick            | Apollo             | Seattle, WA           |
 | Martijn Walraven | @martijnwalraven    | Apollo             | Amsterdam, NL         |
-| Jeff Auriemma    | @bignimbus          | Apollo             | Monroe, CT, USA       |
-| Derek Kuc        | @dariuszkuc         | Apollo             | Chicago, IL, USA      |
+| Pascal Senn      | @pascalsenn         | ChilliCream        | Zurich, CH            |
+
 
 ## Agenda
 
@@ -124,4 +124,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Review previous meeting's action items (5m, Host)
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
-1. (Shane) Quick share on things I will be talking about at [GraphQL Summit](https://summit.graphql.com/) on this group (5m, Shane)
+1. Quick share on things I will be talking about at [GraphQL Summit](https://summit.graphql.com/) on this group (5m, Shane)
+1. Introduction to enum merging RFC [#composite-schema-spec/53](https://github.com/graphql/composite-schemas-spec/pull/53) (10m, Pascal)
+1. Present validation rule `@lookup` must not return a list [#composite-schema-spec/54](https://github.com/graphql/composite-schemas-spec/pull/54)  (10m, Pascal)
+1. Present validation rule `@lookup` should have nullable return type [#composite-schema-spec/54](https://github.com/graphql/composite-schemas-spec/pull/55)  (10m, Pascal)

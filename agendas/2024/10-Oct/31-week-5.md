@@ -102,9 +102,9 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Shane Myrick     | @smyrick      | Apollo GraphQL     | Seattle, WA           |
-| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
 | Derek Kuc        | @dariuszkuc   | Apollo GraphQL     | Chicago, IL, USA      |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich. CH            |
 
 ## Agenda
 

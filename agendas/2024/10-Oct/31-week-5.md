@@ -99,6 +99,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
+
 | Name                   | GitHub        | Organization       | Location              |
 | :--------------------- | :------------ | :----------------- | :-------------------- |
 | Michael Staib (Host)   | @michaelstaib | ChilliCream        | Zurich, CH            |
@@ -106,6 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Kamil Kisiela          | @kamilkisiela | The Guild          | Warsaw, PL            |
 | Derek Kuc              | @dariuszkuc   | Apollo GraphQL     | Chicago, IL, USA      |
 | Martijn Walraven       | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich. CH            |
 
 ## Agenda
 

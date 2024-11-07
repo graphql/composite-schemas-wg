@@ -8,11 +8,11 @@ const config = {
   - _Password:_ composite`,
   liveNotesUrl:
     "https://docs.google.com/document/d/1hJO6U7daYvcNcQ3FBKnh3v4R256ers6M8IGyqRpY_kE/edit?usp=sharing",
-  timezone: "UTC",
+  timezone: "Europe/Berlin",
   frequency: "weekly",
   primaryN: 1,
   weekday: "Th", // M, Tu, W, Th, F, Sa, Su
-  time: "16:00-17:00", // 24-hour clock, range
+  time: "18:00-19:00", // 24-hour clock, range
   attendeesTemplate: `\
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |

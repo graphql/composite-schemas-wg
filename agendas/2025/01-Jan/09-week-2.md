@@ -73,7 +73,7 @@ https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#rfc-contributi
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# Composite Schemas WG — January 2025 (Week 2)
+# Composite Schemas WG — January 2025 (Primary)
 
 The Composite Schemas subcommittee meets weekly to progress the "Composite
 Schemas Specification" project.

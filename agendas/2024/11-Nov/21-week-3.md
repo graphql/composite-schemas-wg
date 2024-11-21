@@ -107,6 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
 | Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
 | Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, IL, USA      |
+| Stephen Spalding     | @fotoetienne     | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 

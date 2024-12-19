@@ -11,7 +11,7 @@
   "devDependencies": {
     "cspell": "5.9.1",
     "prettier": "^2.6.2",
-    "wgutils": "^1.2.1"
+    "wgutils": "^1.2.2"
   },
   "prettier": {
     "proseWrap": "always",

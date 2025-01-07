@@ -103,6 +103,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Benjie Gillam (host) | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      |
 
 
 ## Agenda

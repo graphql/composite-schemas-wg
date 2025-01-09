@@ -107,7 +107,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         | 
 | Sergiy Petrunin  | @devsergiy    | WunderGraph        | Kharkiv, UA           |
 | David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          | 
-| Pascal Senn      | @pascalsenn | ChilliCream          | Zurich, CH            | 
+| Pascal Senn      | @pascalsenn | ChilliCream          | Zurich, CH            |
+| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            | 
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 
 

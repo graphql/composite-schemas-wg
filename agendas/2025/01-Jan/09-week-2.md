@@ -127,4 +127,5 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
 1. Review spec progress (15m, Michael)
+1. Validation spec structure (15m, Michael)
 1. Satisfyability Discussion (15m, Pascal)

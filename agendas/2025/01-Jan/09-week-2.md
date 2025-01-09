@@ -105,6 +105,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Sergiy Petrunin  | @devsergiy    | WunderGraph        | Kharkiv, UA           |
+| David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
 
 
 ## Agenda

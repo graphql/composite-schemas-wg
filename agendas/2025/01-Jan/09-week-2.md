@@ -104,9 +104,10 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Benjie Gillam (host) | @benjie   | Graphile           | Chandler's Ford, UK   |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         | 
 | Sergiy Petrunin  | @devsergiy    | WunderGraph        | Kharkiv, UA           |
-| David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
+| David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          | 
+| Pascal Senn      | @pascalsenn | ChilliCream          | Zurich, CH            | 
 
 
 ## Agenda

@@ -106,7 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Derek Kuc            | @dariuszkuc      | Apollo GraphQL     | Chicago, IL, USA      |
 | Sergiy Petrunin      | @devsergiy       | WunderGraph        | Kharkiv, UA           |
 | David Stutt          | @aenimus         | WunderGraph        | Midlands, UK          | 
-
+| Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            |
 
 ## Agenda
 
@@ -122,3 +122,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Ready for review](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc)
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
 1. `@inaccessible` and `@internal` edge cases.
+2. Satisifability (20m, Pascal)

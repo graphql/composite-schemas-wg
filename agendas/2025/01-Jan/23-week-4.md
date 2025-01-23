@@ -107,7 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | David Stutt             | @aenimus             | WunderGraph        | Midlands, UK          | 
 | Shane Myrick            | @smyrick             | Apollo             | Seattle, WA, USA      |
 | Martijn Walraven        | @martijnwalraven     | Apollo             | Amsterdam, NL         |
-
+| Stephen Spalding        | @fotoetienne         | Netflix            | Los Gatos, CA, US     |
 
 ## Agenda
 

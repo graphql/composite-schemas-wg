@@ -124,3 +124,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [All open action items (by last update)](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Action+item+%3Aclapper%3A%22+sort%3Aupdated-desc)
 1. Schema Name Proposal (10m, Michael Staib)
 1. Referencing fields with @require that specify arguments (10m, @dariuszkuc)
+2. FYI: [Apollo is deprecating Fed 1](https://www.apollographql.com/blog/migrate-apollo-federation-1-0-supergraphs-to-apollo-federation-2-0)

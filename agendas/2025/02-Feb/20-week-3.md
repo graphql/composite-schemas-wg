@@ -105,6 +105,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Pascal Senn            | @pascalsenn        | ChilliCream        | Zurich, CH            |
 | Derek Kuc              | @dariuszkuc        | Apollo             | Chicago, IL, USA      |
 | Martijn Walraven       | @martijnwalraven   | Apollo             | Amsterdam, NL         |
+| Sergiy Petrunin         | @devsergiy           | WunderGraph        | Kharkiv, UA           |
+| David Stutt             | @aenimus             | WunderGraph        | Midlands, UK          |
 
 
 ## Agenda

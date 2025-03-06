@@ -107,6 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven       | @martijnwalraven   | Apollo             | Amsterdam, NL         |
 | Derek Kuc              | @dariuszkuc        | Apollo             | Chicago, IL           |
 | Pascal Senn            | @pascalsenn        | ChilliCream        | Zurich, CH            |
+| Kamil Kisiela          | @kamilkisiela      | The Guild          | Warsaw, PL            |
 ## Agenda
 
 1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Host)

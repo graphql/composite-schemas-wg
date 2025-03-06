@@ -106,7 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Shane Myrick           | @smyrick           | Apollo             | Seattle, WA           |
 | Martijn Walraven       | @martijnwalraven   | Apollo             | Amsterdam, NL         |
 | Derek Kuc              | @dariuszkuc        | Apollo             | Chicago, IL           |
-
+| Pascal Senn            | @pascalsenn        | ChilliCream        | Zurich, CH            |
 ## Agenda
 
 1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Host)

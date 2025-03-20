@@ -99,13 +99,14 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
-| Sachin Shinde    | @sachindshinde   | Apollo          | San Francisco, CA     |
-| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
-| Kamil Kisiela    | @kamilkisiela | The Guild          | Warsaw, PL            |
+| Name               | GitHub           | Organization       | Location              |
+| :----------------- | :--------------- | :----------------- | :-------------------- |
+| Pascal Senn (Host) | @pascalsenn      | ChilliCream        | Zurich, CH            |
+| Martijn Walraven   | @martijnwalraven | Apollo             | Amsterdam, NL         |
+| Sachin Shinde      | @sachindshinde   | Apollo             | San Francisco, CA     |
+| Derek Kuc          | @dariuszkuc      | Apollo             | Chicago, IL, USA      |
+| Kamil Kisiela      | @kamilkisiela    | The Guild          | Warsaw, PL            |
+| Michael Staib      | @michaelstaib    | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda

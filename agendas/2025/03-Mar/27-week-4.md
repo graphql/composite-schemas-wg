@@ -70,8 +70,7 @@ https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#rfc-contributi
 
 -->
 
-| This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
-| ---------------------------------------------------------------------------------------- |
+**CANCELED**
 
 # Composite Schemas WG — March 2025 (Week 4)
 

@@ -107,6 +107,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            |
 | Sachin Shinde        | @sachindshinde   | Apollo             | San Francisco, CA     |
 | Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, IL           |
+| Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
 
 
 ## Agenda

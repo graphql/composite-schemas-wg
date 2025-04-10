@@ -102,6 +102,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Sachin Shinde    | @sachindshinde   | Apollo          | San Francisco, CA     |
 
 
 ## Agenda

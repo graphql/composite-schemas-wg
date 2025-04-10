@@ -116,5 +116,6 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - Meetings are [published to YouTube](https://www.youtube.com/@GraphQLFoundation/videos) and we may use LLM/AI summary tools
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
+1. Review Spec Draft for Satisfiability (15m, Pascal)
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)

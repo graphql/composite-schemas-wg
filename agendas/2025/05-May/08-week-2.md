@@ -101,12 +101,13 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name                 | GitHub           | Organization       | Location              |
 | :------------------- | :--------------- | :----------------- | :-------------------- |
-| Michael Staib (Host) | @michaelstaib    | ChilliCram         | Zurich, CH            |
+| Michael Staib (Host) | @michaelstaib    | ChilliCream        | Zurich, CH            |
 | Shane Myrick         | @smyrick         | Apollo             | Seattle, WA, USA      |
 | Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
 | Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, IL, USA      | 
 | Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            | 
-| Sachin Shinde        | @sachindshinde   | Apollo             | San Francisco, CA, USA |
+| Sachin Shinde        | @sachindshinde   | Apollo             | San Francisco, CA, USA|
+| Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
 
 ## Agenda
 

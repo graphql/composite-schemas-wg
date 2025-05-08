@@ -99,12 +99,15 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Shane Myrick     | @smyrick      | Apollo             | Seattle, WA, USA      |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
-| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
+| Name                 | GitHub           | Organization       | Location              |
+| :------------------- | :--------------- | :----------------- | :-------------------- |
+| Michael Staib (Host) | @michaelstaib    | ChilliCram         | Zurich, CH            |
+| Shane Myrick         | @smyrick         | Apollo             | Seattle, WA, USA      |
+| Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
+| Derek Kuc            | @dariuszkuc      | Apollo             | Chicago, IL, USA      | 
+| Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            | 
+| Sachin Shinde        | @sachindshinde   | Apollo             | San Francisco, CA, USA |
+
 ## Agenda
 
 1. Agree to Membership Agreement, Participation & Contribution Guidelines and Code of Conduct (1m, Host)

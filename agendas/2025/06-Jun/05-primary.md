@@ -120,3 +120,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Composite Schemas WG — May 2025 (Week 4)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2025/05-May/22-week-4.md)
    - [Composite Schemas WG — May 2025 (Week 5)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2025/05-May/29-week-5.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
+1. Simplified Key Definition in GraphQL Composite Schemas (10m, @michaelstaib)

@@ -126,3 +126,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Simplified Key Definition in GraphQL Composite Schemas (https://github.com/graphql/composite-schemas-spec/issues/168)[#168] (10m, @michaelstaib)
 1. Support for the Relay spec and Node interface (https://github.com/graphql/composite-schemas-spec/issues/178)[#178] (15m, @michaelstaib)
+1. Batch Lookups (15, @michaelstaib)

@@ -105,6 +105,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Pacal Senn             | @pascalsenn         | ChilliCream        | Zurich, CH            |
 | Benjamin Rabier        | @Finistere          | Grafbase           | Paris, FR             |
 | Tom Houlé              | @tomhoule           | Grafbase           | Berlin, DE            |
+| Jeff Auriemma          | @bignimbus          | Apollo             | Monroe, CT, USA       |
 
 
 ## Agenda

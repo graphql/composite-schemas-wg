@@ -110,6 +110,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Derek Kuc              | @dariuszkuc         | Apollo             | Chicago, IL, USA      |
 | Sachin Shinde          | @sachindshinde      | Apollo             | San Francisco, CA     |
 | Kamil Kisiela          | @kamilkisiela       | The Guild          | Warsaw, PL            |
+| Stephen Spalding       | @fotoetienne        | Netflix            | Los Gatos, CA, US     |
 
 
 ## Agenda

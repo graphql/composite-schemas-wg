@@ -106,6 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Benjamin Rabier        | @Finistere          | Grafbase           | Paris, FR             |
 | Tom Houlé              | @tomhoule           | Grafbase           | Berlin, DE            |
 | Jeff Auriemma          | @bignimbus          | Apollo             | Monroe, CT, USA       |
+| Martijn Walraven       | @martijnwalraven    | Apollo             | Amsterdam, NL         |
 
 
 ## Agenda

@@ -103,6 +103,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | :--------------------- | :------------------ | :----------------- | :-------------------- |
 | Michael Staib (Host)   | @michaelstaib       | ChilliCream        | Zurich, CH            |
 | Pacal Senn             | @pascalsenn         | ChilliCream        | Zurich, CH            |
+| Benjamin Rabier        | @Finistere          | Grafbase           | Paris, FR             |
+| Tom Houlé              | @tomhoule           | Grafbase           | Berlin, DE            |
 
 
 ## Agenda

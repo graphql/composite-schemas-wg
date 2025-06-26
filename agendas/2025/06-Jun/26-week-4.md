@@ -99,9 +99,11 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Name                | GitHub           | Organization    | Location              |
+| :------------------ | :--------------- | :-------------- | :-------------------- |
+| Michael Staib (Host)| @michaelstaib    | ChilliCream     | Zurich, CH            |
+| Martijn Walraven    | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Pascal Senn         | @pascalsenn      | ChilliCream     | Zurich, CH            |
 
 
 ## Agenda
@@ -117,3 +119,4 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Revisit explicit list syntax in `FieldSelectionMap`. (15m, @martijnwalraven)
+1. Triage and discussion of open issues ([#disscution-wg](https://github.com/graphql/composite-schemas-spec/issues?q=is%3Aissue%20state%3Aopen%20label%3Adiscussion-wg) (15m, Host) 

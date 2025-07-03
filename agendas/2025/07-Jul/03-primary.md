@@ -104,6 +104,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Jeff Auriemma    | @bignimbus    | Apollo             | Monroe, CT, USA       |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Sachin Shinde    | @sachindshinde   | Apollo          | San Francisco, CA     |
 
 
 ## Agenda

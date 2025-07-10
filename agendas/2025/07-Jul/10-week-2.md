@@ -106,6 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Benjamin Rabier      | @Finistere       | Grafbase           | Paris, FR.            |  
 | Sachin Shinde        | @sachindshinde   | Apollo             | San Francisco, CA     |
 | Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
+| Pascal Senn          | @pascalsenn      | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda

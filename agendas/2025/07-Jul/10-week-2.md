@@ -105,6 +105,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven     | @martijnwalraven | Apollo             | Amsterdam, NL         |
 | Benjamin Rabier      | @Finistere       | Grafbase           | Paris, FR.            |  
 | Sachin Shinde        | @sachindshinde   | Apollo             | San Francisco, CA     |
+| Kamil Kisiela        | @kamilkisiela    | The Guild          | Warsaw, PL            |
 
 
 ## Agenda

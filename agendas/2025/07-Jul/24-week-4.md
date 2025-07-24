@@ -106,6 +106,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Martijn Walraven     | @martijnwalraven | Apollo          | Amsterdam, NL        |
 | Sachin Shinde        | @sachindshinde   | Apollo          | San Francisco, CA    |
 | Duckki Oe            | @duckki       | Apollo             | Seattle, WA          |
+| Stephen Spalding     | @fotoetienne  | Netflix            | Chattanooga, TN, US  |
 
 ## Agenda
 

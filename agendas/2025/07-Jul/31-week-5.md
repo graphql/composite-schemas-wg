@@ -103,6 +103,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Shane Myrick     | @smyrick      | Apollo             | Seattle, WA           |
 | Martijn Walraven | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Duckki Oe        | @duckki       | Apollo             | Seattle, WA           |
 
 
 ## Agenda

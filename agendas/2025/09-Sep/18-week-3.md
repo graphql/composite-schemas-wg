@@ -105,6 +105,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Pascal Senn            | @pascalsenn   | ChilliCream        | Zurich, CH            |
 | Mark Larah             | @magicmark    | Yelp               | Austin, TX, US        |
 | Martijn Walraven       | @martijnwalraven | Apollo          | Amsterdam, NL         |
+| Benjamin Rabier        | @Finistere    | Grafbase           | Paris, FR             |
 
 
 ## Agenda

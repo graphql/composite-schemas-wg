@@ -101,8 +101,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| Michael Staib | @michaelstaib | ChilliCream | Zurich, CH |
 | Sachin Shinde    | @sachindshinde | Apollo            | San Francisco, CA     |
-
 
 ## Agenda
 

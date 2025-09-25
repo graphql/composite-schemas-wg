@@ -104,6 +104,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 | Michael Staib    | @michaelstaib  | ChilliCream        | Zurich, CH            |
 | Pascal Senn      | @pascalsenn    | ChilliCream        | Zurich, CH            |
 | Sachin Shinde    | @sachindshinde | Apollo             | San Francisco, CA     |
+| Stephen Spalding | @fotoetienne   | Netflix            | Chattanooga, TN, US   |
 
 ## Agenda
 

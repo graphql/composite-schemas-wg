@@ -73,7 +73,7 @@ https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#rfc-contributi
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# Composite Schemas WG — October 2025 (Week 5)
+# Composite Schemas WG — January 2026 (Week 5)
 
 The Composite Schemas subcommittee meets weekly to progress the "Composite
 Schemas Specification" project.
@@ -81,7 +81,7 @@ Schemas Specification" project.
 The first meeting each month is the primary monthly meeting; to enable a greater
 cadence of progress we also have weekly meetings which tend to be more informal.
 
-- **Date & Time**: [October 30, 2025, 6:00 – 7:00 PM GMT+1](https://www.timeanddate.com/worldclock/converter.html?iso=20251030T170000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
+- **Date & Time**: [January 29, 2026, 6:00 – 7:00 PM GMT+1](https://www.timeanddate.com/worldclock/converter.html?iso=20260129T170000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -99,13 +99,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name                 | GitHub        | Organization       | Location              |
-| :------------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib (host) | @michaelstaib | ChilliCream        | Zurich, CH            |
-| Pascal Senn          | @pascalsenn   | CHilliCream        | Zurich, CH            |
-| Kamil Kisiela        | @kamilkisiela | The Guild          | Warsaw, PL            |
-| Derek Kuc            | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
-| Sachin Shinde        | @sachindshinde | Apollo            | San Francisco, CA     |
+| Name             | GitHub        | Organization       | Location              |
+| :--------------- | :------------ | :----------------- | :-------------------- |
 
 
 ## Agenda
@@ -121,5 +116,3 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
-1. `ARG` vs `ARGUMENT` (5m, Pascal)
-1. How do we want to approach the validation rules similarity  (15m, Pascal)

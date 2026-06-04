@@ -101,6 +101,8 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
+| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda
@@ -120,3 +122,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
    - [Composite Schemas WG — May 2026 (Week 4)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/05-May/28-week-4.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. [Add LOOKUP_MUST_HAVE_ARGUMENTS validation rule](https://github.com/graphql/composite-schemas-spec/pull/221) (5m, Host)
+1. [Merge fields by least restrictive supertype](https://github.com/graphql/composite-schemas-spec/pull/223) (10m, Host)
+1. [Add arguments to field selection map](https://github.com/graphql/composite-schemas-spec/pull/220) (5m, Host)
+1. Is `@provides` and optimization or does it allow to bind schemas together? (10m, Host)

@@ -28,8 +28,9 @@ are welcome to host guests.
 
 Meetings are scheduled on the first and third Thursday of each month: the first
 Thursday is the primary monthly meeting (18:00 CET), and the third Thursday is a
-more informal secondary meeting (11:00 CET). Check the [agendas](./agendas) for
-the exact date and time of upcoming meetings.
+secondary meeting (11:00 CET) timed to be accessible to attendees in Australian
+(APAC) time zones. Check the [agendas](./agendas) for the exact date and time of
+upcoming meetings.
 
 Keep track of future upcoming meetings by subscribing to the
 [Google Calendar](https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)

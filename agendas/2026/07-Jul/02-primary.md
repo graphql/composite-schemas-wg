@@ -79,8 +79,8 @@ The Composite Schemas subcommittee meets on the first and third Thursday of each
 month to progress the "Composite Schemas Specification" project.
 
 The first meeting each month is the primary monthly meeting; the second meeting
-tends to be more informal and is scheduled at an earlier time of day to be more
-accessible across time zones.
+is held earlier in the day to be accessible to attendees in Australian (APAC)
+time zones.
 
 - **Date & Time**: [July 2, 2026, 6:00 – 7:00 PM GMT+2](https://www.timeanddate.com/worldclock/converter.html?iso=20260702T160000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).

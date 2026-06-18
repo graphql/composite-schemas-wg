@@ -75,11 +75,12 @@ https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#rfc-contributi
 
 # Composite Schemas WG — August 2026 (Primary)
 
-The Composite Schemas subcommittee meets weekly to progress the "Composite
-Schemas Specification" project.
+The Composite Schemas subcommittee meets on the first and third Thursday of each
+month to progress the "Composite Schemas Specification" project.
 
-The first meeting each month is the primary monthly meeting; to enable a greater
-cadence of progress we also have weekly meetings which tend to be more informal.
+The first meeting each month is the primary monthly meeting; the second meeting
+tends to be more informal and is scheduled at an earlier time of day to be more
+accessible across time zones.
 
 - **Date & Time**: [August 6, 2026, 6:00 – 7:00 PM GMT+2](https://www.timeanddate.com/worldclock/converter.html?iso=20260806T160000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
@@ -115,9 +116,6 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
 1. Review prior secondary meetings (5m, Host)
-   - [Composite Schemas WG — July 2026 (Week 2)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/07-Jul/09-week-2.md)
-   - [Composite Schemas WG — July 2026 (Week 3)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/07-Jul/16-week-3.md)
-   - [Composite Schemas WG — July 2026 (Week 4)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/07-Jul/23-week-4.md)
-   - [Composite Schemas WG — July 2026 (Week 5)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/07-Jul/30-week-5.md)
+   - [Composite Schemas WG — July 2026 (Secondary)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/07-Jul/16-secondary.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)

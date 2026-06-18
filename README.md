@@ -26,8 +26,10 @@ upcoming event's agenda to _attend_ or _propose an agenda item_.
 All meetings occur via video conference, however participating company offices
 are welcome to host guests.
 
-Meetings are typically scheduled at 1500 UTC on the 2nd Thursday of the month.
-Check the [agendas](./agendas) for the exact date and time of upcoming meetings.
+Meetings are scheduled on the first and third Thursday of each month: the first
+Thursday is the primary monthly meeting (18:00 CET), and the third Thursday is a
+more informal secondary meeting (11:00 CET). Check the [agendas](./agendas) for
+the exact date and time of upcoming meetings.
 
 Keep track of future upcoming meetings by subscribing to the
 [Google Calendar](https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)

@@ -73,15 +73,16 @@ https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#rfc-contributi
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# Composite Schemas WG — July 2026 (Week 3)
+# Composite Schemas WG — November 2026 (Secondary)
 
-The Composite Schemas subcommittee meets weekly to progress the "Composite
-Schemas Specification" project.
+The Composite Schemas subcommittee meets on the first and third Thursday of each
+month to progress the "Composite Schemas Specification" project.
 
-The first meeting each month is the primary monthly meeting; to enable a greater
-cadence of progress we also have weekly meetings which tend to be more informal.
+The first meeting each month is the primary monthly meeting; the second meeting
+is held earlier in the day to be accessible to attendees in Australian (APAC)
+time zones.
 
-- **Date & Time**: [July 16, 2026, 6:00 – 7:00 PM GMT+2](https://www.timeanddate.com/worldclock/converter.html?iso=20260716T160000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
+- **Date & Time**: [November 19, 2026, 11:00 AM – 12:00 PM GMT+1](https://www.timeanddate.com/worldclock/converter.html?iso=20261119T100000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,

@@ -106,7 +106,7 @@ time zones.
 | Pascal Senn      | pascalsenn    | ChilliCream        | Zurich, CH            |
 | David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
-
+| Sachin Shinde    | @sachindshinde | Apollo            | San Francisco, CA, USA |
 
 ## Agenda
 

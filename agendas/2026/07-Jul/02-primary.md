@@ -102,7 +102,9 @@ time zones.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| David Stutt | @aenimus | WunderGraph | Midlands, UK |
+| Michael Staib    | michaelstaib  | ChilliCream        | Zurich, CH            |
+| Pascal Senn      | pascalsenn    | ChilliCream        | Zurich, CH            |
+| David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
 
 
 ## Agenda
@@ -120,3 +122,7 @@ time zones.
    - [Composite Schemas WG — June 2026 (Secondary)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/06-Jun/18-secondary.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. [Add entity and identity section](https://github.com/graphql/composite-schemas-spec/pull/224) (10m, @michaelstaib)
+1. [Allow @require on interface fields](https://github.com/graphql/composite-schemas-spec/pull/227) (10m, @michaelstaib)
+1. [Forbid fields with arguments in @key and @is](https://github.com/graphql/composite-schemas-spec/pull/226) (10m, @michaelstaib)
+1. [Allow external key fields](https://github.com/graphql/composite-schemas-spec/pull/225) (10m, @michaelstaib)

@@ -1,5 +1,3 @@
-[![GraphQLConf 2024 Banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/342c770c-f04b-4187-9937-c88b8a97aff1)](https://graphql.org/conf/2024/?utm_source=github&utm_medium=composite_schemas_wg&utm_campaign=readme)
-
 # GraphQL Composite Schemas Working Group
 
 This working group is a subcommittee of the
@@ -26,8 +24,11 @@ upcoming event's agenda to _attend_ or _propose an agenda item_.
 All meetings occur via video conference, however participating company offices
 are welcome to host guests.
 
-Meetings are typically scheduled at 1500 UTC on the 2nd Thursday of the month.
-Check the [agendas](./agendas) for the exact date and time of upcoming meetings.
+Meetings are scheduled on the first and third Thursday of each month: the first
+Thursday is the primary monthly meeting (18:00 CET), and the third Thursday is a
+secondary meeting (11:00 CET) timed to be accessible to attendees in Australian
+(APAC) time zones. Check the [agendas](./agendas) for the exact date and time of
+upcoming meetings.
 
 Keep track of future upcoming meetings by subscribing to the
 [Google Calendar](https://calendar.google.com/calendar?cid=bGludXhmb3VuZGF0aW9uLm9yZ19pazc5dDl1dWoycDMyaTNyMjAzZGd2NW1vOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t)

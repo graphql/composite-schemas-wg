@@ -73,15 +73,16 @@ https://github.com/graphql/graphql-spec/blob/main/CONTRIBUTING.md#rfc-contributi
 | This is an open meeting: To attend, read [JoiningAMeeting.md][] then edit and PR this file. (Edit: ✎ above, or press "e") |
 | ---------------------------------------------------------------------------------------- |
 
-# Composite Schemas WG — June 2026 (Week 2)
+# Composite Schemas WG — September 2026 (Primary)
 
-The Composite Schemas subcommittee meets weekly to progress the "Composite
-Schemas Specification" project.
+The Composite Schemas subcommittee meets on the first and third Thursday of each
+month to progress the "Composite Schemas Specification" project.
 
-The first meeting each month is the primary monthly meeting; to enable a greater
-cadence of progress we also have weekly meetings which tend to be more informal.
+The first meeting each month is the primary monthly meeting; the second meeting
+is held earlier in the day to be accessible to attendees in Australian (APAC)
+time zones.
 
-- **Date & Time**: [June 11, 2026, 6:00 – 7:00 PM GMT+2](https://www.timeanddate.com/worldclock/converter.html?iso=20260611T160000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
+- **Date & Time**: [September 3, 2026, 6:00 – 7:00 PM GMT+2](https://www.timeanddate.com/worldclock/converter.html?iso=20260903T160000&p1=3775&p2=110&p3=24&p4=37&p5=188&p6=496&p7=676&p8=438&p9=268&p10=234&p11=78&p12=604)
   - View the [calendar][], or subscribe ([Google Calendar][], [ical file][]).
   - _Please Note:_ The date or time may change. Please check this agenda the
     week of the meeting to confirm. While we try to keep all calendars accurate,
@@ -114,5 +115,7 @@ cadence of progress we also have weekly meetings which tend to be more informal.
 1. Introduction of attendees (5m, Host)
 1. Determine volunteers for note taking (1m, Host)
 1. Review agenda (2m, Host)
+1. Review prior secondary meetings (5m, Host)
+   - [Composite Schemas WG — August 2026 (Secondary)](https://github.com/graphql/composite-schemas-wg/blob/main/agendas/2026/08-Aug/20-secondary.md)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)

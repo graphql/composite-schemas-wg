@@ -102,7 +102,9 @@ time zones.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-
+| Michael Staib    | michaelstaib  | ChilliCream        | Zurich, CH            |
+| Pascal Senn      | pascalsenn    | ChilliCream        | Zurich, CH            |
+| Kamil Kisiela    | kamilkisiela  | The Guild          | Warsaw, PL            |
 
 ## Agenda
 
@@ -117,3 +119,4 @@ time zones.
 1. Review agenda (2m, Host)
 1. Check for [ready for review agenda items](https://github.com/graphql/composite-schemas-wg/issues?q=is%3Aissue+is%3Aopen+label%3A%22Ready+for+review+%F0%9F%99%8C%22+sort%3Aupdated-desc) (5m, Host)
 1. Reminder: [grants available for key initiatives](https://graphql.org/community/foundation/community-grant/) (1m, Host)
+1. [InterfaceObject](https://github.com/graphql/composite-schemas-spec/pull/233) (15m, Michael Staib)

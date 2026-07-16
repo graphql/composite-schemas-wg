@@ -104,6 +104,7 @@ time zones.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Michael Staib    | michaelstaib  | ChilliCream        | Zurich, CH            |
 | Pascal Senn      | pascalsenn    | ChilliCream        | Zurich, CH            |
+| Kamil Kisiela    | kamilkisiela  | The Guild          | Warsaw, PL            |
 
 ## Agenda
 

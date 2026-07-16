@@ -100,11 +100,12 @@ time zones.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib    | michaelstaib  | ChilliCream        | Zurich, CH            |
-| Pascal Senn      | pascalsenn    | ChilliCream        | Zurich, CH            |
-| Kamil Kisiela    | kamilkisiela  | The Guild          | Warsaw, PL            |
+| Name          | GitHub       | Organization | Location     |
+|:--------------|:-------------|:-------------|:-------------|
+| Michael Staib | michaelstaib | ChilliCream  | Zurich, CH   |
+| Pascal Senn   | pascalsenn   | ChilliCream  | Zurich, CH   |
+| Kamil Kisiela | kamilkisiela | The Guild    | Warsaw, PL   |
+| David Stutt   | aenimus      | WunderGraph  | Midlands, UK |
 
 ## Agenda
 

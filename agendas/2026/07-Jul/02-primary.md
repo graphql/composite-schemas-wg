@@ -100,13 +100,14 @@ time zones.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib    | michaelstaib  | ChilliCream        | Zurich, CH            |
-| Pascal Senn      | pascalsenn    | ChilliCream        | Zurich, CH            |
-| David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
-| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
-| Sachin Shinde    | @sachindshinde | Apollo            | San Francisco, CA, USA |
+| Name            | GitHub         | Organization       | Location               |
+|:----------------| :------------- | :----------------- | :--------------------- |
+| Michael Staib   | michaelstaib   | ChilliCream        | Zurich, CH             |
+| Pascal Senn     | pascalsenn     | ChilliCream        | Zurich, CH             |
+| David Stutt     | @aenimus       | WunderGraph        | Midlands, UK           |
+| Derek Kuc       | @dariuszkuc    | Apollo             | Chicago, IL, USA       |
+| Sachin Shinde   | @sachindshinde | Apollo             | San Francisco, CA, USA |
+| Sam Zislis-Gaus | @gausie        | WunderGraph        | Edinburgh, Scotland    |
 
 ## Agenda
 

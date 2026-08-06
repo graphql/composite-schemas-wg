@@ -100,11 +100,11 @@ time zones.
 ## Attendees
 
 <!-- prettier-ignore -->
-| Name             | GitHub        | Organization       | Location              |
-| :--------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH.           |
-| Pascal Senn      | @pascalsenn   | ChilliCream        | Zurich, CH.           |
-
+| Name          | GitHub        | Organization | Location      |
+|:--------------|:--------------|:-------------|:--------------|
+| Michael Staib | @michaelstaib | ChilliCream  | Zurich, CH.   |
+| Pascal Senn   | @pascalsenn   | ChilliCream  | Zurich, CH.   |
+| David Stutt   | @aenimus      | WunderGraph  | Midlands, UK |
 
 
 ## Agenda

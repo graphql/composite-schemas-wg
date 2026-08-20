@@ -102,6 +102,7 @@ time zones.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 
 
 ## Agenda

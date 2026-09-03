@@ -102,6 +102,7 @@ time zones.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
 
 
 ## Agenda

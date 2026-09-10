@@ -104,6 +104,7 @@ time zones.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Michael Staib    | @michaelstaib | Apollo             | Zurich, CH            |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
+| David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
 
 
 ## Agenda

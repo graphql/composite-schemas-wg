@@ -102,7 +102,7 @@ time zones.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
-| Michael Staib    | @michaelstaib | Apollo             | Zurich, CH            |
+| Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, IL, USA      |
 | David Stutt      | @aenimus      | WunderGraph        | Midlands, UK          |
 

@@ -4,13 +4,13 @@ This working group is a subcommittee of the
 [GraphQL Working Group](https://github.com/graphql/graphql-wg) with the
 following primary purpose:
 
-> To build [a specification](https://github.com/graphql/composite-schemas-spec/)
+> To build [a specification](https://github.com/graphql/graphql-federation-spec/)
 > that covers many of the shared concerns when building a larger GraphQL schema
 > as a composite of many smaller GraphQL schemas.
 
-The resulting work-in-progress "GraphQL Composite Schemas Specification" can be
+The resulting work-in-progress "GraphQL Federation Specification" can be
 found in at
-[graphql/composite-schemas-spec](https://github.com/graphql/composite-schemas-spec).
+[graphql/graphql-federation-spec](https://github.com/graphql/graphql-federation-spec).
 
 Anyone in the public GraphQL community may attend a meeting of this
 subcommittee, provided they first sign the

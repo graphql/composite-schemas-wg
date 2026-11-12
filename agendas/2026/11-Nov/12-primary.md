@@ -104,6 +104,7 @@ time zones.
 | :--------------- | :------------ | :----------------- | :-------------------- |
 | Michael Staib    | @michaelstaib | ChilliCream        | Zurich, CH            |
 | David            | @aenimus      | WunderGraph        | UK                    |
+| Derek Kuc        | @dariuszkuc   | Apollo             | Chicago, USA          |
 
 
 ## Agenda

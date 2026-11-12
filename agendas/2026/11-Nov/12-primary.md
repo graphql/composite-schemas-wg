@@ -102,6 +102,7 @@ time zones.
 <!-- prettier-ignore -->
 | Name             | GitHub        | Organization       | Location              |
 | :--------------- | :------------ | :----------------- | :-------------------- |
+| David            | @aenimus      | WunderGraph        | UK                    |
 
 
 ## Agenda
